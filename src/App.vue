@@ -1,11 +1,31 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <!-- <router-link to="/">About</router-link> -->
-    </div>
-    <router-view />
+  <div class="app">
+    <Header />
+    <main class="Main">
+      <Container>
+        <router-view />
+      </Container>
+    </main>
   </div>
 </template>
 
 <style></style>
+
+<script>
+import Header from '@/components/Header'
+import Container from '@/components/Container'
+
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Container
+  }
+}
+</script>
+
+<style lang="postcss" scoped>
+.Main {
+  padding-top: 40px;
+}
+</style>
