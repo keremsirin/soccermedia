@@ -1,7 +1,5 @@
 :root {
-  /* --header-height: 44px; */
-  --pc: #27ae60;
-  --sc: #2c3e50;
-  --a: #10ac84;
-  --b: #40407a;
+  --header-height: 80px;
+  --pc: #10ac84;
+  --sc: #40407a;
 }
