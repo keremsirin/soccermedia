@@ -27,6 +27,11 @@ export default {
 <style lang="postcss" scoped>
 .Header {
   display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 90;
   justify-content: center;
   align-items: center;
   height: 60px;
