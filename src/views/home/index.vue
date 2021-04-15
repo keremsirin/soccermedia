@@ -1,5 +1,5 @@
 <template>
-  <div class="Home">
+  <div id="container" class="Home">
     <!-- <CostumText tag="p" size="xsmall">Selam</CostumText> -->
     <div class="Home-showcase">
       <div class="Home-showcase-left">
@@ -13,16 +13,21 @@
           ve futbolcularının sosyal medya paylaşımlarını
           kaçırmayacaksın.</CostumText
         >
-        <ButtonPrimary class="Home-showcase-left-btn">
+        <button
+          @click="scrollToBottom"
+          type="button"
+          class="Home-showcase-left-btn"
+        >
           <ArrowBottom class="Home-showcase-left-btn-arrow" />
           Hemen Başla
           <ArrowBottom class="Home-showcase-left-btn-arrow" />
-        </ButtonPrimary>
+        </button>
       </div>
       <div class="Home-showcase-right">
         <Gameboy width="400" height="400" />
       </div>
     </div>
+    <div ref="scroll"></div>
     <!-- <IconHome /> -->
     <router-view />
   </div>
@@ -30,7 +35,7 @@
 
 <script>
 import CostumText from '@/components/CostumText'
-import ButtonPrimary from '@/components/ButtonPrimary'
+// import ButtonPrimary from '@/components/ButtonPrimary'
 // import IconHome from '@/components/icons/home.svg'
 import Gameboy from '@/components/icons/gameboy.svg'
 import ArrowBottom from '@/components/icons/arrow-bottom.svg'
@@ -41,8 +46,16 @@ export default {
     // IconHome
     CostumText,
     Gameboy,
-    ButtonPrimary,
+    // ButtonPrimary,
     ArrowBottom
+  },
+  methods: {
+    scrollToBottom() {
+      const el = this.$refs.scroll
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
   }
 }
 </script>
@@ -71,12 +84,24 @@ export default {
         margin-left: auto;
         margin-right: auto;
         margin-top: 48px;
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 44px;
+        background-color: var(--pc);
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: 0.3s;
+        font-size: 16px;
+        user-select: none;
+
         &-arrow {
           margin-left: 4px;
           margin-right: 4px;
           transition: 0.3s;
         }
         &:hover {
+          background-color: var(--sc);
           .Home-showcase-left-btn-arrow {
             transform: rotateX(360deg);
           }
