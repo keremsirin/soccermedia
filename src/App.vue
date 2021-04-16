@@ -26,6 +26,9 @@ export default {
 
 <style lang="postcss" scoped>
 .Main {
-  padding-top: 40px;
+  padding-top: 20px;
+  @media (--t) {
+    padding-top: 40px;
+  }
 }
 </style>
