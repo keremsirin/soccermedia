@@ -2,9 +2,9 @@
   <header class="Header">
     <Container>
       <router-link class="Header-logo" to="/">
-        <Ball />
+        <Ball class="Header-logo-ball" />
         <div class="Header-logo-text">SoccerMedia</div>
-        <Ball />
+        <Ball class="Header-logo-ball" />
       </router-link>
       <!-- <router-link to="/">About</router-link> -->
     </Container>
@@ -45,7 +45,7 @@ export default {
     justify-content: center;
     align-items: center;
     &-text {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       user-select: none;
       font-family: 'Press Start 2P', cursive;
       color: white;
@@ -53,6 +53,19 @@ export default {
       padding-right: 6px;
       /* margin-top: 2px; */
       text-shadow: -1px 3px 0px rgb(162, 162, 162);
+
+      @media (--m) {
+        font-size: 1.6rem;
+      }
+    }
+    &-ball {
+      width: 28px;
+      height: 28px;
+
+      @media (--m) {
+        width: 36px;
+        height: 36px;
+      }
     }
   }
 }
