@@ -1,9 +1,10 @@
 <template>
-  <div id="container" class="Home">
-    <!-- <CostumText tag="p" size="xsmall">Selam</CostumText> -->
+  <div class="Home">
     <div class="Home-showcase">
       <div class="Home-showcase-left">
-        <p>Sen de olan biteni kaçırmaktan sıkıldın mı?</p>
+        <p id="desktop" class="Home-showcase-left-title">
+          Sen de olan biteni kaçırmaktan sıkıldın mı?
+        </p>
         <CostumText tag="h3"
           >SoccerMedia senin için futbol kulüplerinin ve futbolcuların
           paylaşımlarını aynı platforma taşıdı.</CostumText
@@ -24,29 +25,27 @@
         </button>
       </div>
       <div class="Home-showcase-right">
-        <Gameboy width="400" height="400" />
+        <p id="mobile" class="Home-showcase-left-title">
+          Sen de olan biteni kaçırmaktan sıkıldın mı?
+        </p>
+        <Gameboy class="Home-showcase-right-gameboy" width="400" height="400" />
       </div>
     </div>
     <div ref="scroll"></div>
-    <!-- <IconHome /> -->
     <router-view />
   </div>
 </template>
 
 <script>
 import CostumText from '@/components/CostumText'
-// import ButtonPrimary from '@/components/ButtonPrimary'
-// import IconHome from '@/components/icons/home.svg'
 import Gameboy from '@/components/icons/gameboy.svg'
 import ArrowBottom from '@/components/icons/arrow-bottom.svg'
 
 export default {
   name: 'Home',
   components: {
-    // IconHome
     CostumText,
     Gameboy,
-    // ButtonPrimary,
     ArrowBottom
   },
   methods: {
@@ -64,18 +63,55 @@ export default {
 .Home {
   &-showcase {
     display: flex;
-    /* background-color: red; */
-    /* padding-divottom: 200px; */
+    flex-direction: column-reverse;
+    padding-bottom: 40px;
+    @media (--m) {
+      flex-direction: row;
+    }
     &-left {
-      /* background-color: blue; */
-      padding-right: 48px;
-      p {
-        font-size: 40px;
+      padding-right: 0;
+      padding-top: 20px;
+      margin-top: auto;
+      margin-bottom: auto;
+      #desktop {
+        display: none;
+      }
+      @media (--s) {
+        padding-top: 32px;
+      }
+      @media (--m) {
+        #desktop {
+          display: inherit;
+        }
+        padding-top: 0;
+        padding-right: 48px;
+      }
+      &-title {
+        font-size: 2rem;
         font-weight: bold;
-        padding-bottom: 36px;
+        text-align: center;
+        padding-bottom: 20px;
+        color: #333;
+        @media (--s) {
+          font-size: 2.4rem;
+        }
+        @media (--m) {
+          padding-bottom: 20px;
+          text-align: left;
+          font-size: 2.6rem;
+        }
+        @media (--t) {
+          text-align: left;
+          padding-bottom: 38px;
+          font-size: 2.7rem;
+        }
       }
       h3 {
         font-weight: normal;
+        text-align: center;
+        @media (--m) {
+          text-align: left;
+        }
       }
       &-btn {
         display: flex;
@@ -83,7 +119,7 @@ export default {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 48px;
+        margin-top: 32px;
         padding-left: 24px;
         padding-right: 24px;
         height: 44px;
@@ -94,7 +130,12 @@ export default {
         transition: 0.3s;
         font-size: 16px;
         user-select: none;
-
+        @media (--s) {
+          margin-top: 40px;
+        }
+        @media (--m) {
+          margin-top: 48px;
+        }
         &-arrow {
           margin-left: 4px;
           margin-right: 4px;
@@ -110,9 +151,33 @@ export default {
     }
     &-right {
       display: inherit;
-      width: auto;
-      margin-left: auto;
+      margin-left: 0;
       justify-content: flex-end;
+      flex-direction: column;
+      align-items: center;
+      @media (--m) {
+        margin-left: auto;
+        justify-content: center;
+        #mobile {
+          display: none;
+        }
+      }
+      &-gameboy {
+        width: 280px;
+        height: 280px;
+        @media (--s) {
+          width: 328px;
+          height: 328px;
+        }
+        @media (--m) {
+          width: 340px;
+          height: 340px;
+        }
+        @media (--t) {
+          width: 400px;
+          height: 400px;
+        }
+      }
     }
   }
 }
