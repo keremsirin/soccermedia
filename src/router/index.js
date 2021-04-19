@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/home/index.vue'
-import Teams from '../views/home/teams.vue'
+import Home from '../views/home/HomePage.vue'
+import Teams from '../views/home/Teams.vue'
 
 Vue.use(VueRouter)
 
@@ -40,13 +40,13 @@ const routes = [
         path: '/players',
         name: 'Players',
         component: () =>
-          import(/* webpackChunkName: "players" */ '../views/home/players.vue')
+          import(/* webpackChunkName: "players" */ '../views/home/Players.vue')
       },
       {
         path: '/players/posts',
         name: 'Posts',
         component: () =>
-          import(/* webpackChunkName: "players" */ '../views/home/posts.vue')
+          import(/* webpackChunkName: "players" */ '../views/home/Posts.vue')
       }
     ]
   }
