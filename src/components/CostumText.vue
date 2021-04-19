@@ -17,8 +17,9 @@ export default {
       default: 'normal',
       validator: function (value) {
         return (
-          ['large', 'normal', 'small', 'xsamll', 'xxsmall'].indexOf(value) !==
-          -1
+          ['xlarge', 'large', 'normal', 'small', 'xsamll', 'xxsmall'].indexOf(
+            value
+          ) !== -1
         )
       }
     }
@@ -27,6 +28,9 @@ export default {
 </script>
 
 <style scoped>
+.xlarge {
+  font-size: 17px;
+}
 .large {
   font-size: 16px;
 }
