@@ -64,7 +64,6 @@ export default {
   &-showcase {
     display: flex;
     flex-direction: column-reverse;
-    /* padding-bottom: 40px; */
     @media (--m) {
       flex-direction: row;
     }
