@@ -16,12 +16,7 @@
       >
         <div class="Teams-inner-cards">
           <Clubs class="Teams-inner-cards-svg" v-bind:name="post.id" />
-          <CostumText
-            tag="strong"
-            size="xlarge"
-            lang="tr"
-            class="Teams-inner-cards-text"
-          >
+          <CostumText tag="strong" lang="tr" class="Teams-inner-cards-text">
             {{ post.title }}
           </CostumText>
         </div>
@@ -221,23 +216,28 @@ export default {
 
   &-inner {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
     height: auto;
-    min-height: 620px; /*auto*/
     margin-bottom: 40px;
+    justify-items: center;
+    min-height: calc(100vh - 140px);
 
-    /* background-color: blue; */
+    @media (--m) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2em;
+    }
+    @media (--t) {
+      grid-gap: 4.5em;
+    }
 
     &-wrapper {
       box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
         rgba(0, 0, 0, 0.117647) 0px 1px 8px;
-      min-width: 260px;
-      min-height: 260px;
-      max-width: 260px;
-      max-height: 260px;
+      width: 160px;
+      height: 160px;
       transition: 0.15s all ease-in-out;
-      margin: 12px auto;
+      /* margin: 12px auto; */
       border-radius: 50%;
       display: flex;
       justify-content: center;
@@ -247,6 +247,14 @@ export default {
       &:hover {
         transform: scale(1.1);
       }
+      @media (--m) {
+        width: 220px;
+        height: 220px;
+      }
+      @media (--t) {
+        width: 260px;
+        height: 260px;
+      }
     }
     &-cards {
       text-decoration: none;
@@ -255,15 +263,35 @@ export default {
       flex-direction: column;
       align-items: center;
       text-align: center;
+      margin-top: -16px;
+      @media (--m) {
+        margin-top: 0;
+      }
 
       &-svg {
-        /* transform: scale(0.9); */
+        transform: scale(0.5);
+        @media (--m) {
+          transform: scale(0.85);
+        }
+        @media (--t) {
+          transform: scale(1);
+        }
       }
 
       &-text {
-        padding-top: 20px;
+        padding-top: 0;
         height: 50px;
         text-transform: uppercase;
+        font-size: 12px;
+        margin-top: -16px;
+        @media (--m) {
+          margin-top: 0;
+          font-size: 14.5px;
+        }
+        @media (--t) {
+          font-size: 17px;
+          padding-top: 20px;
+        }
       }
     }
   }
