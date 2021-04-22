@@ -37,7 +37,7 @@ const routes = [
         // ]
       },
       {
-        path: '/players',
+        path: '/:teamName',
         name: 'Players',
         component: () =>
           import(/* webpackChunkName: "players" */ '../views/home/Players.vue')
