@@ -1,23 +1,21 @@
 <template>
   <div class="Teams">
     <CostumText class="Teams-title" tag="h1">Kulüpler</CostumText>
-
     <div class="Teams-search">
       <input type="text" v-model="search" placeholder="Kulüp ara.." />
       <label>Kulüp ara:</label>
     </div>
-
     <div class="Teams-inner">
       <router-link
-        v-bind:to="post.link"
+        :to="team.pathName"
         class="Teams-inner-wrapper"
-        v-for="post in filteredList"
-        v-bind:key="post.title"
+        v-for="team in filteredList"
+        v-bind:key="team.title"
       >
         <div class="Teams-inner-cards">
-          <Clubs class="Teams-inner-cards-svg" v-bind:name="post.id" />
+          <Clubs class="Teams-inner-cards-svg" v-bind:name="team.id" />
           <CostumText tag="strong" lang="tr" class="Teams-inner-cards-text">
-            {{ post.title }}
+            {{ team.title }}
           </CostumText>
         </div>
       </router-link>
@@ -27,133 +25,26 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import CostumText from '@/components/CostumText'
 import Clubs from '@/components/Clubs.vue'
-// import Team1 from '@/components/teams/1.svg'
 
 export default {
   name: 'Teams',
   components: {
     CostumText,
     Clubs
-    // Team1
   },
   data() {
     return {
-      search: '',
-      postList: [
-        {
-          id: 1,
-          title: 'Atakaş Hatayspor',
-          link: 'players'
-        },
-        {
-          id: 2,
-          title: 'Aytemiz Alanyaspor',
-          link: 'players'
-        },
-        {
-          id: 3,
-          title: 'Beşiktaş A.Ş.',
-          link: 'players'
-        },
-        {
-          id: 4,
-          title: 'Büyükşehir Belediye Erzurumspor',
-          link: 'players'
-        },
-        {
-          id: 5,
-          title: 'Çaykur Rizespor A.Ş.',
-          link: 'players'
-        },
-        {
-          id: 6,
-          title: 'Demir Grup Sivasspor',
-          link: 'players'
-        },
-        {
-          id: 7,
-          title: 'Fatih Karagümrük A.Ş.',
-          link: 'players'
-        },
-        {
-          title: 'Fenerbahçe A.Ş.',
-          link: 'players',
-          id: 8
-        },
-        {
-          id: 9,
-          title: 'Fraport-Tav Antalyaspor',
-          link: 'players'
-        },
-        {
-          id: 10,
-          title: 'Galatasaray A.Ş.',
-          link: 'players'
-        },
-        {
-          id: 11,
-          title: 'Gaziantep Futbol Kulübü A.Ş.',
-          link: 'players'
-        },
-        {
-          id: 12,
-          title: 'Gençlerbirliği',
-          link: 'players'
-        },
-        {
-          id: 13,
-          title: 'Göztepe A.Ş.',
-          link: 'players'
-        },
-        {
-          id: 14,
-          title: 'Helenex Yeni Malatyaspor',
-          link: 'players'
-        },
-        {
-          id: 15,
-          title: 'Hes Kablo Kayserispor',
-          link: 'players'
-        },
-        {
-          id: 16,
-          title: 'İttifak Holding Konyaspor',
-          link: 'players'
-        },
-        {
-          id: 17,
-          title: 'Kasımpaşa A.Ş.',
-          link: 'players'
-        },
-        {
-          id: 18,
-          title: 'Medipol Başakşehir FK',
-          link: 'players'
-        },
-        {
-          id: 19,
-          title: 'Mke Ankaragücü',
-          link: 'players'
-        },
-        {
-          id: 20,
-          title: 'Trabzonspor A.Ş.',
-          link: 'players'
-        },
-        {
-          id: 21,
-          title: 'Yukatel Denizlispor',
-          link: 'players'
-        }
-      ]
+      search: ''
     }
   },
   computed: {
+    ...mapState(['teams']),
     filteredList() {
-      return this.postList.filter((post) => {
-        return post.title.toLowerCase().includes(this.search.toLowerCase())
+      return this.teams.filter((team) => {
+        return team.title.toLowerCase().includes(this.search.toLowerCase())
       })
     }
   },
@@ -166,13 +57,11 @@ export default {
   height: auto;
   margin-top: 40px;
   padding-top: 40px;
-
   &-title {
     text-align: center;
     padding-bottom: 40px;
     font-size: 2.4rem;
   }
-
   &-search {
     position: relative;
     display: flex;
@@ -213,7 +102,6 @@ export default {
       }
     }
   }
-
   &-inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -222,7 +110,6 @@ export default {
     margin-bottom: 40px;
     justify-items: center;
     min-height: calc(100vh - 140px);
-
     @media (--m) {
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 2em;
@@ -230,14 +117,12 @@ export default {
     @media (--t) {
       grid-gap: 4.5em;
     }
-
     &-wrapper {
       box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
         rgba(0, 0, 0, 0.117647) 0px 1px 8px;
       width: 160px;
       height: 160px;
       transition: 0.15s all ease-in-out;
-      /* margin: 12px auto; */
       border-radius: 50%;
       display: flex;
       justify-content: center;
@@ -267,7 +152,6 @@ export default {
       @media (--m) {
         margin-top: 0;
       }
-
       &-svg {
         transform: scale(0.5);
         @media (--m) {
@@ -277,7 +161,6 @@ export default {
           transform: scale(1);
         }
       }
-
       &-text {
         padding-top: 0;
         height: 50px;
