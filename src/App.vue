@@ -9,8 +9,6 @@
   </div>
 </template>
 
-<style></style>
-
 <script>
 import Header from '@/components/Header'
 import Container from '@/components/Container'
