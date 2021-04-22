@@ -9,7 +9,7 @@ export default {
   name: 'CostumText',
   props: {
     tag: {
-      type: String,
+      type: [String, null],
       default: 'span'
     },
     size: {

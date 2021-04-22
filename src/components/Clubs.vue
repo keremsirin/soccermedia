@@ -30,7 +30,7 @@ const icons = {
 export default {
   props: {
     name: {
-      type: String,
+      type: Number,
       required: true,
       validator(value) {
         return Object.prototype.hasOwnProperty.call(icons, value)
