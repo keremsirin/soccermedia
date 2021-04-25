@@ -31,7 +31,7 @@
         <Gameboy class="Home-showcase-right-gameboy" width="400" height="400" />
       </div>
     </div>
-    <div ref="scroll"></div>
+    <div id="scroll" ref="scroll"></div>
     <router-view />
   </div>
 </template>
