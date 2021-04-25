@@ -7,10 +7,11 @@
     </div>
     <div class="Teams-inner">
       <router-link
+        @click.native="setId(team.id)"
         :to="team.pathName"
         class="Teams-inner-wrapper"
         v-for="team in filteredList"
-        v-bind:key="team.title"
+        v-bind:key="team.id"
       >
         <div class="Teams-inner-cards">
           <Clubs class="Teams-inner-cards-svg" v-bind:name="team.id" />
@@ -25,7 +26,7 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 import CostumText from '@/components/CostumText'
 import Clubs from '@/components/Clubs.vue'
 
@@ -48,7 +49,12 @@ export default {
       })
     }
   },
-  methods: {}
+  methods: {
+    ...mapActions(['updateId']),
+    setId(id) {
+      this.updateId(id)
+    }
+  }
 }
 </script>
 
