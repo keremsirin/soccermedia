@@ -15,26 +15,6 @@ const routes = [
         path: '/',
         name: 'Teams',
         component: Teams
-        // children: [
-        //   {
-        //     path: '/players',
-        //     name: 'Players',
-        //     component: () =>
-        //       import(
-        //         /* webpackChunkName: "players" */ '../views/home/players.vue'
-        //       ),
-        //     children: [
-        //       {
-        //         path: '/players/posts',
-        //         name: 'Posts',
-        //         component: () =>
-        //           import(
-        //             /* webpackChunkName: "players" */ '../views/home/posts.vue'
-        //           )
-        //       }
-        //     ]
-        //   }
-        // ]
       },
       {
         path: '/:teamName',
@@ -43,7 +23,7 @@ const routes = [
           import(/* webpackChunkName: "players" */ '@/views/home/Players.vue')
       },
       {
-        path: '/players/posts',
+        path: '/:teamName/:playerName',
         name: 'Posts',
         component: () =>
           import(/* webpackChunkName: "posts" */ '@/views/home/Posts.vue')
