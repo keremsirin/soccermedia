@@ -15,7 +15,7 @@
       >
         <div class="Players-inner-cards">
           <div class="Players-inner-images">
-            <img :src="players.profilePhoto" alt="" />
+            <img :src="players.profilePhoto" height="120px" alt="" />
           </div>
           <!-- <Clubs class="Teams-inner-cards-svg" v-bind:name="players.playerId" /> -->
           <CostumText tag="strong" lang="tr" class="Players-inner-cards-text">
@@ -158,7 +158,13 @@ export default {
       width: 120px;
       height: 120px;
       img {
-        max-height: 120px;
+        transform: scale(0.5);
+        @media (--m) {
+          transform: scale(0.85);
+        }
+        @media (--t) {
+          transform: scale(1);
+        }
       }
     }
     &-cards {
