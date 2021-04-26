@@ -10,11 +10,14 @@
         :to="{ name: 'Posts', params: { playerName: players.playerPathName } }"
         class="Players-inner-wrapper"
         v-for="players in filteredList"
-        v-bind:key="players.id"
+        v-bind:key="players.playerId"
         v-show="players.isSocial"
       >
         <div class="Players-inner-cards">
-          <Clubs class="Players-inner-cards-svg" v-bind:name="20" />
+          <div class="Players-inner-images">
+            <img :src="players.profilePhoto" alt="" />
+          </div>
+          <!-- <Clubs class="Teams-inner-cards-svg" v-bind:name="players.playerId" /> -->
           <CostumText tag="strong" lang="tr" class="Players-inner-cards-text">
             {{ players.name }}
           </CostumText>
@@ -26,15 +29,15 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 import CostumText from '@/components/CostumText'
-import Clubs from '@/components/Clubs.vue'
+// import Clubs from '@/components/Clubs'
 
 export default {
   name: 'Players',
   components: {
-    CostumText,
-    Clubs
+    CostumText
+    // Clubs
   },
   data() {
     return {
@@ -53,7 +56,12 @@ export default {
       )
     }
   },
-  methods: {}
+  methods: {
+    ...mapActions(['updateId']),
+    setId(id) {
+      this.updateId(id)
+    }
+  }
 }
 </script>
 
@@ -144,6 +152,13 @@ export default {
       @media (--t) {
         width: 260px;
         height: 260px;
+      }
+    }
+    &-images {
+      width: 120px;
+      height: 120px;
+      img {
+        max-height: 120px;
       }
     }
     &-cards {
