@@ -1,6 +1,5 @@
 const express = require('express')
 const T = require('../../../src/lib/twitter')
-// const deneme2 = require('')
 
 const router = express.Router()
 
@@ -8,11 +7,12 @@ router.get('/', (req, res) => {
   const deneme = 'kasimahmetakif'
   const bunu = T.get(
     'search/tweets',
-    { from: deneme, count: 2 },
+    { from: deneme, count: 5 },
     function (err, data, response) {
-      res.send(data)
-      // res.json(JSON.stringify(data.statuses))
-      // console.log(process.env.VUE_APP_TWITTER_CONSUMER_KEY)
+      if (err) {
+        return res.status(400).json('Oops! Something went wrong.')
+      }
+      res.status(200).send(data)
     }
   )
 })
