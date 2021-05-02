@@ -17,7 +17,6 @@
           <div class="Players-inner-images">
             <img :src="players.profilePhoto" height="120px" alt="" />
           </div>
-          <!-- <Clubs class="Teams-inner-cards-svg" v-bind:name="players.playerId" /> -->
           <CostumText tag="strong" lang="tr" class="Players-inner-cards-text">
             {{ players.name }}
           </CostumText>
@@ -29,8 +28,9 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 import CostumText from '@/components/CostumText'
+
 // import Clubs from '@/components/Clubs'
 
 export default {
@@ -57,10 +57,10 @@ export default {
     }
   },
   methods: {
-    ...mapActions(['updateId']),
-    setId(id) {
-      this.updateId(id)
-    }
+    // ...mapActions(['updateId']),
+    // setId(id) {
+    //   this.updateId(id)
+    // }
   }
 }
 </script>
