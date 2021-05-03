@@ -55,9 +55,6 @@ export default {
         el.scrollIntoView({ behavior: 'smooth' })
       }
     }
-  },
-  created() {
-    console.log(process.env.NODE_ENV)
   }
 }
 </script>
