@@ -1,6 +1,7 @@
 import axios from 'axios'
+import getBaseUrl from 'get-base-url'
 
-const url = 'http://localhost:8081/api/tweets'
+const url = getBaseUrl() + 'api/tweets/'
 
 class tweetService {
   static getTweets() {

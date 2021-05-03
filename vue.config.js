@@ -1,9 +1,16 @@
+const path = require('path')
 module.exports = {
+  outputDir: path.resolve(__dirname, './server/public'),
+  devServer: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8081'
+      }
+    }
+  },
   chainWebpack: (config) => {
     const svgRule = config.module.rule('svg')
-
     svgRule.uses.clear()
-
     svgRule
       .use('babel-loader')
       .loader('babel-loader')
