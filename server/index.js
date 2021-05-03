@@ -12,6 +12,7 @@ const tweets = require('./routes/api/tweets')
 app.use('/api/tweets', tweets)
 
 if (process.env.NODE_ENV == 'production') {
+  console.log('evet')
   app.use(express.static(__dirname + '/public/'))
   app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'))
 }
