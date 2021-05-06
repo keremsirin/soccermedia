@@ -1,13 +1,14 @@
 const express = require('express')
 const T = require('../../../src/lib/twitter')
+const twitterName = require('./twitterName')
 
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  const deneme = 'kasimahmetakif'
-  const bunu = T.get(
+  // console.log(twitterName.stack[0].params.twittername)
+  T.get(
     'search/tweets',
-    { from: deneme, count: 5 },
+    { from: twitterName.stack[0].params.twittername, count: 5 },
     function (err, data, response) {
       if (err) {
         return res.status(400).json('Oops! Something went wrong.')
