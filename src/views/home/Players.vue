@@ -50,7 +50,7 @@ export default {
   },
   created() {
     document.getElementById('scroll').scrollIntoView()
-    this.$store.state.twitterName = null
+    // this.$store.state.twitterName = null
     axios.get(
       'http://localhost:8081/twittername/' + this.$store.state.twitterName
     )
