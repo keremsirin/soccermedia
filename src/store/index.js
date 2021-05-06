@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import createPersistedState from 'vuex-persistedstate'
+// import axios from 'axios'
 
 Vue.use(Vuex)
 
@@ -23,7 +24,8 @@ export default new Vuex.Store({
             playerPathName: 'munir-mohamedi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/97925-1614803676.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/97925-1614803676.jpeg?lm=1',
+            twitterName: 'pusholder'
           },
           {
             playerId: 2,
@@ -31,7 +33,8 @@ export default new Vuex.Store({
             playerPathName: 'akin-alkan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/252056-1609947483.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/252056-1609947483.jpeg?lm=1',
+            twitterName: 'f1krampon'
           },
           {
             playerId: 3,
@@ -39,7 +42,8 @@ export default new Vuex.Store({
             playerPathName: 'ekrem-kilicarslan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/464378-1614803774.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/464378-1614803774.jpeg?lm=1',
+            twitterName: 'cakirugurcan96'
           },
           {
             playerId: 4,
@@ -4976,7 +4980,8 @@ export default new Vuex.Store({
         ]
       }
     ],
-    teamId: null
+    teamId: null,
+    twitterName: null
   },
 
   getters: {},
@@ -4984,13 +4989,24 @@ export default new Vuex.Store({
   mutations: {
     setId(state, id) {
       state.teamId = id
+    },
+    setTwitterName(state, name) {
+      state.twitterName = name
     }
   },
 
   actions: {
     updateId({ commit }, id) {
       commit('setId', id)
+    },
+    async updateTwitterName({ commit }, name) {
+      await commit('setTwitterName', name)
     }
+
+    // async updateTwitterName({ state, commit }, name) {
+    //   await axios.get('http://localhost:8081/twittername/' + state.twitterName)
+    //   await commit('setTwitterName', name)
+    // }
   },
 
   modules: {}
