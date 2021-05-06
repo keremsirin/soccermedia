@@ -7,11 +7,7 @@
     </div>
     <div class="Players-inner">
       <router-link
-        @click.native="
-          setTwitterName(players.twitterName)
-          first()
-          second()
-        "
+        @click.native="setTwitterName(players.twitterName)"
         :to="{ name: 'Posts', params: { playerName: players.playerPathName } }"
         class="Players-inner-wrapper"
         v-for="players in filteredList"
@@ -35,8 +31,8 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 import CostumText from '@/components/CostumText'
-import axios from 'axios'
-import tweetService from '@/services/tweetService'
+// import axios from 'axios'
+// import tweetService from '@/services/tweetService'
 
 export default {
   name: 'Players',
@@ -51,17 +47,17 @@ export default {
   created() {
     document.getElementById('scroll').scrollIntoView()
     // this.$store.state.twitterName = null
-    axios.get(
-      'http://localhost:8081/twittername/' + this.$store.state.twitterName
-    )
+    // axios.get(
+    //   'http://localhost:8081/twittername/' + this.$store.state.twitterName
+    // )
   },
   async mounted() {
-    try {
-      this.tweets = await tweetService.getTweets()
-    } catch (err) {
-      this.error = err.message
-      console.log(this.error)
-    }
+    // try {
+    //   this.tweets = await tweetService.getTweets()
+    // } catch (err) {
+    //   this.error = err.message
+    //   console.log(this.error)
+    // }
   },
   computed: {
     ...mapState(['teams']),
@@ -76,20 +72,20 @@ export default {
     ...mapActions(['updateTwitterName']),
     setTwitterName(name) {
       this.updateTwitterName(name)
-    },
-    first() {
-      axios.get(
-        'http://localhost:8081/twittername/' + this.$store.state.twitterName
-      )
-    },
-    async second() {
-      try {
-        this.tweets = await tweetService.getTweets()
-      } catch (err) {
-        this.error = err.message
-        console.log(this.error)
-      }
     }
+    // first() {
+    //   axios.get(
+    //     'http://localhost:8081/twittername/' + this.$store.state.twitterName
+    //   )
+    // },
+    // async second() {
+    //   try {
+    //     this.tweets = await tweetService.getTweets()
+    //   } catch (err) {
+    //     this.error = err.message
+    //     console.log(this.error)
+    //   }
+    // }
   }
 }
 </script>
