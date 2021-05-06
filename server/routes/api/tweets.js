@@ -5,7 +5,7 @@ const twitterName = require('./twitterName')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  // console.log(twitterName.stack[0].params.twittername)
+  console.log(twitterName.stack[0].params.twittername)
   T.get(
     'search/tweets',
     { from: twitterName.stack[0].params.twittername, count: 5 },
