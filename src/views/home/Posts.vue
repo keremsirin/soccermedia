@@ -2,7 +2,7 @@
   <div class="home">
     <h1>Posts</h1>
     <!-- <CostumText tag="p" size="xsmall">Selam</CostumText> -->
-    <div v-for="tweet in tweets.statuses" v-bind:key="tweet.id">
+    <div v-for="tweet in tweets.statuses" :key="tweet.id">
       {{ tweet.text }}
     </div>
     <div></div>
@@ -12,6 +12,7 @@
 <script>
 // import CostumText from '@/components/CostumText'
 import tweetService from '@/services/tweetService'
+import axios from 'axios'
 
 export default {
   name: 'Posts',
@@ -24,7 +25,12 @@ export default {
       error: ''
     }
   },
-  async created() {
+  created() {
+    axios.get(
+      'http://localhost:8081/twittername/' + this.$store.state.twitterName
+    )
+  },
+  async mounted() {
     try {
       this.tweets = await tweetService.getTweets()
     } catch (err) {
