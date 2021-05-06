@@ -8,14 +8,12 @@ app.use(bodyParser.json())
 app.use(cors())
 
 const tweets = require('./routes/api/tweets')
+const twitterName = require('./routes/api/twitterName')
 
 app.use('/api/tweets', tweets)
+app.use('/twittername/', twitterName)
 
 if (process.env.NODE_ENV === 'production') {
-  // app.use(express.static('server/public/'))
-  // app.get('*', (req, res) => {
-  //   res.sendFile(path.resolve(__dirname, 'server', 'public', 'index.html'))
-  // })
   app.use(express.static(__dirname + '/public/'))
   app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'))
 }
