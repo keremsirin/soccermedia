@@ -4981,7 +4981,7 @@ export default new Vuex.Store({
       }
     ],
     teamId: null,
-    twitterName: 'kasimahmetakif'
+    twitterName: null
   },
 
   getters: {},

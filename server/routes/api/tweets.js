@@ -6,9 +6,10 @@ const router = express.Router()
 
 router.get('/', (req, res) => {
   console.log(twitterName.stack[0].params.twittername)
+  name = 'pusholder'
   T.get(
     'search/tweets',
-    { from: twitterName.stack[0].params.twittername, count: 5 },
+    { from: name, count: 5 },
     function (err, data, response) {
       if (err) {
         return res.status(400).json('Oops! Something went wrong.')
