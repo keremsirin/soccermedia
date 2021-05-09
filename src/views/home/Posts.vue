@@ -27,7 +27,8 @@ export default {
   },
   created() {
     axios.get(
-      'http://localhost:8081/twittername/' + this.$store.state.twitterName
+      'http://localhost:8081/twittername/' +
+        String(this.$store.state.twitterName)
     )
   },
   async mounted() {
