@@ -2,7 +2,7 @@
   <div class="Players">
     <CostumText class="Players-title" tag="h1">Oyuncular</CostumText>
     <div class="Players-search">
-      <input type="text" v-model="search" placeholder="Kulüp ara.." />
+      <input type="text" v-model="search" placeholder="Futbolcu ara.." />
       <label>Futbolcu ara:</label>
     </div>
     <div class="Players-inner">
@@ -52,8 +52,7 @@ export default {
     document.getElementById('scroll').scrollIntoView()
     this.$store.state.twitterName = null
     axios.get(
-      'http://localhost:8081/twittername/' +
-        String(this.$store.state.twitterName)
+      'http://localhost:8081/twittername/' + this.$store.state.twitterName
     )
   },
   async mounted() {
@@ -80,8 +79,7 @@ export default {
     },
     first() {
       axios.get(
-        'http://localhost:8081/twittername/' +
-          String(this.$store.state.twitterName)
+        'http://localhost:8081/twittername/' + this.$store.state.twitterName
       )
     },
     async second() {
