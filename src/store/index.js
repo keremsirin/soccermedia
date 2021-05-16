@@ -19,6 +19,15 @@ export default new Vuex.Store({
         pathName: 'atakas-hatayspor',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Hatayspor_FK',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000122_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'MUNIR MOHAMEDI',
             playerPathName: 'munir-mohamedi',
@@ -250,6 +259,15 @@ export default new Vuex.Store({
         title: 'Aytemiz Alanyaspor',
         pathName: 'aytemiz-alanyaspor',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Alanyaspor',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000050_120x120.png'
+          },
           {
             playerId: 1,
             name: 'Carlos Marafona',
@@ -483,6 +501,15 @@ export default new Vuex.Store({
         pathName: 'besiktas',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Besiktas',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000148_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Ersin Destanoğlu',
             playerPathName: 'ersin-destanoglu',
@@ -715,6 +742,15 @@ export default new Vuex.Store({
         pathName: 'buyuksehir-belediye-erzurumspor',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Erzurumspor',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/010491_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Jakub SzumskI',
             playerPathName: 'jakub-szumski',
@@ -937,6 +973,15 @@ export default new Vuex.Store({
         title: 'Çaykur Rizespor A.Ş.',
         pathName: 'caykur-rizespor',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'CRizesporAS',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000189_120x120.png'
+          },
           {
             playerId: 1,
             name: 'Gökhan Akkan',
@@ -1215,6 +1260,15 @@ export default new Vuex.Store({
         pathName: 'demir-grup-sivasspor',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'SivassporKulubu',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000073_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Mamadou Samassa',
             playerPathName: 'mamadou-samassa',
@@ -1446,6 +1500,15 @@ export default new Vuex.Store({
         title: 'Fatih Karagümrük A.Ş.',
         pathName: 'fatih-karagumruk',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'karagumruk_sk',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000169_120x120.png'
+          },
           {
             playerId: 1,
             name: 'Aykut Özer',
@@ -1733,6 +1796,15 @@ export default new Vuex.Store({
         pathName: 'fenerbahce',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Fenerbahce',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000150_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Altay Bayındır',
             playerPathName: 'altay-bayindir',
@@ -1991,6 +2063,15 @@ export default new Vuex.Store({
         title: 'Fraport-Tav Antalyaspor',
         pathName: 'fraport-tav-antalyaspor',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Antalyaspor',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000051_120x120.png'
+          },
           {
             playerId: 1,
             name: 'Ruud BoffIn',
@@ -2260,6 +2341,15 @@ export default new Vuex.Store({
         pathName: 'galatasaray',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'GalatasaraySK',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000162_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Fernando Muslera',
             playerPathName: 'fernando-muslera',
@@ -2518,6 +2608,15 @@ export default new Vuex.Store({
         title: 'Gaziantep Futbol Kulübü A.Ş.',
         pathName: 'gaziantep-futbol-kulubu',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'GaziantepFK',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000251_120x120.png'
+          },
           {
             playerId: 1,
             name: 'Günay Güvenç',
@@ -2786,6 +2885,15 @@ export default new Vuex.Store({
         title: 'Gençlerbirliği',
         pathName: 'genclerbirligi',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'kirmizikara',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000164_120x120.png'
+          },
           {
             playerId: 1,
             name: 'KrIstoffer Nordfeldt',
@@ -3063,6 +3171,15 @@ export default new Vuex.Store({
         title: 'Göztepe A.Ş.',
         pathName: 'goztepe',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Goztepe',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000269_120x120.png'
+          },
           {
             playerId: 1,
             name: 'İrfan Can Eğribayat',
@@ -3350,6 +3467,15 @@ export default new Vuex.Store({
         pathName: 'helenex-yeni-malatyaspor',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'YMSkulubu',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/011385_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Abdulsamed Damlu',
             playerPathName: 'abdulsamed-damlu',
@@ -3627,6 +3753,15 @@ export default new Vuex.Store({
         pathName: 'hes-kablo-kayserispor',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'KayserisporFK',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000071_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Doğan Alemdar',
             playerPathName: 'dogan-alemdar',
@@ -3894,6 +4029,15 @@ export default new Vuex.Store({
         title: 'İttifak Holding Konyaspor',
         pathName: 'ittifak-holding-konyaspor',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'konyaspor',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000158_120x120.png'
+          },
           {
             playerId: 1,
             name: 'IbrahIm ŠehIć',
@@ -4190,6 +4334,15 @@ export default new Vuex.Store({
         pathName: 'kasimpasa',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'kasimpasa',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000038_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Ramazan Köse',
             playerPathName: 'ramazan-kose',
@@ -4466,6 +4619,15 @@ export default new Vuex.Store({
         title: 'Medipol Başakşehir FK',
         pathName: 'medipol-basaksehir-fk',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'ibfk2014',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000240_120x120.png'
+          },
           {
             playerId: 1,
             name: 'Mert Günok',
@@ -4752,6 +4914,15 @@ export default new Vuex.Store({
         title: 'Mke Ankaragücü',
         pathName: 'mke-ankaragucu',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Ankaragucu',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000153_120x120.png'
+          },
           {
             playerId: 1,
             name: 'RIcardo FrIedrIch',
@@ -5066,6 +5237,15 @@ export default new Vuex.Store({
         pathName: 'trabzonspor',
         players: [
           {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Trabzonspor',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000154_120x120.png'
+          },
+          {
             playerId: 1,
             name: 'Uğurcan Çakır',
             playerPathName: 'ugurcan-cakir',
@@ -5333,6 +5513,15 @@ export default new Vuex.Store({
         title: 'Yukatel Denizlispor',
         pathName: 'yukatel-denizlispor',
         players: [
+          {
+            playerId: 0,
+            name: 'Kulüp Paylaşımları',
+            playerPathName: 'kulup-paylasimlari',
+            isSocial: true,
+            twitterName: 'Denizlispor',
+            profilePhoto:
+              'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000080_120x120.png'
+          },
           {
             playerId: 1,
             name: 'Cenk Gönen',
