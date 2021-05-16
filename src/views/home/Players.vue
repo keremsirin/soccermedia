@@ -1,6 +1,6 @@
 <template>
   <div class="Players">
-    <CostumText class="Players-title" tag="h1">Oyuncular</CostumText>
+    <CostumText class="Players-title" tag="h1">Kulüp ve Oyuncular</CostumText>
     <div class="Players-search">
       <input type="text" v-model="search" placeholder="Futbolcu ara.." />
       <label>Futbolcu ara:</label>
