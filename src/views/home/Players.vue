@@ -9,8 +9,7 @@
       <router-link
         @click.native="
           setTwitterName(players.twitterName)
-          first()
-          second()
+          get()
         "
         :to="{ name: 'Posts', params: { playerName: players.playerPathName } }"
         class="Players-inner-wrapper"
@@ -36,7 +35,7 @@
 import { mapState, mapActions } from 'vuex'
 import CostumText from '@/components/CostumText'
 import axios from 'axios'
-import tweetService from '@/services/tweetService'
+// import tweetService from '@/services/tweetService'
 
 export default {
   name: 'Players',
@@ -52,16 +51,11 @@ export default {
     document.getElementById('scroll').scrollIntoView()
     this.$store.state.twitterName = null
     axios.get(
-      'http://localhost:8081/twittername/' + this.$store.state.twitterName
+      'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
+      // window.location.origin +
+      //   '/api/twittername/' +
+      //   this.$store.state.twitterName
     )
-  },
-  async mounted() {
-    try {
-      this.tweets = await tweetService.getTweets()
-    } catch (err) {
-      this.error = err.message
-      console.log(this.error)
-    }
   },
   computed: {
     ...mapState(['teams']),
@@ -77,18 +71,14 @@ export default {
     setTwitterName(name) {
       this.updateTwitterName(name)
     },
-    first() {
+    get() {
       axios.get(
-        'http://localhost:8081/twittername/' + this.$store.state.twitterName
+        'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
+        // window.location.origin +
+        //   '/api/twittername/' +
+        //   this.$store.state.twitterName
       )
-    },
-    async second() {
-      try {
-        this.tweets = await tweetService.getTweets()
-      } catch (err) {
-        this.error = err.message
-        console.log(this.error)
-      }
+      // console.log(this.$route.query.page)
     }
   }
 }
