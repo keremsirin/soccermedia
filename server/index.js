@@ -11,7 +11,7 @@ const tweets = require('./routes/api/tweets')
 const twitterName = require('./routes/api/twitterName')
 
 app.use('/api/tweets', tweets)
-app.use('/twittername/', twitterName)
+app.use('/api/twittername/', twitterName)
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(__dirname + '/public/'))
