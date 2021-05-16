@@ -25,7 +25,7 @@ export default new Vuex.Store({
             isSocial: true,
             profilePhoto:
               'https://img.a.transfermarkt.technology/portrait/header/97925-1614803676.jpeg?lm=1',
-            twitterName: 'pusholder'
+            twitterName: 'Munir_Mohand'
           },
           {
             playerId: 2,
@@ -34,7 +34,7 @@ export default new Vuex.Store({
             isSocial: true,
             profilePhoto:
               'https://img.a.transfermarkt.technology/portrait/header/252056-1609947483.jpeg?lm=1',
-            twitterName: 'f1krampon'
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -43,7 +43,7 @@ export default new Vuex.Store({
             isSocial: true,
             profilePhoto:
               'https://img.a.transfermarkt.technology/portrait/header/464378-1614803774.jpeg?lm=1',
-            twitterName: 'cakirugurcan96'
+            twitterName: 'Ekilicarslan17'
           },
           {
             playerId: 4,
@@ -51,7 +51,8 @@ export default new Vuex.Store({
             playerPathName: 'yavuz-bugra-boyar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/616489-1614803825.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/616489-1614803825.jpeg?lm=1',
+            twitterName: 'Yavuzbugrabyr'
           },
           {
             playerId: 5,
@@ -59,7 +60,8 @@ export default new Vuex.Store({
             playerPathName: 'pablo-santos',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/265648-1612272185.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/265648-1612272185.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -67,7 +69,8 @@ export default new Vuex.Store({
             playerPathName: 'jean-claude-billong',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/391192-1607775171.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/391192-1607775171.jpeg?lm=1',
+            twitterName: 'BillongJC'
           },
           {
             playerId: 7,
@@ -75,7 +78,8 @@ export default new Vuex.Store({
             playerPathName: 'yusuf-abdioglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/199938-1609609740.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/199938-1609609740.jpeg?lm=1',
+            twitterName: 'AbdiogluYusuf' // korumali hesap
           },
           {
             playerId: 8,
@@ -83,7 +87,8 @@ export default new Vuex.Store({
             playerPathName: 'soner-örnek',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/74643-1609947527.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/74643-1609947527.jpeg?lm=1',
+            twitterName: 'sonerornek27'
           },
           {
             playerId: 9,
@@ -91,7 +96,8 @@ export default new Vuex.Store({
             playerPathName: 'youssouf-kone',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/274484-1613909256.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/274484-1613909256.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -99,7 +105,8 @@ export default new Vuex.Store({
             playerPathName: 'alexandros-katranis',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/324341-1608043540.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/324341-1608043540.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -107,7 +114,8 @@ export default new Vuex.Store({
             playerPathName: 'mesut-caytemel',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/53543-1607773223.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/53543-1607773223.jpeg?lm=1',
+            twitterName: 'mesutcaytemel'
           },
           {
             playerId: 12,
@@ -115,7 +123,8 @@ export default new Vuex.Store({
             playerPathName: 'strahil-popov',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/87299-1614804264.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/87299-1614804264.jpeg?lm=1',
+            twitterName: 'StrahilPopov'
           },
           {
             playerId: 13,
@@ -123,7 +132,8 @@ export default new Vuex.Store({
             playerPathName: 'burak-camoglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/197402-1609264186.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/197402-1609264186.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -131,7 +141,8 @@ export default new Vuex.Store({
             playerPathName: 'isaac-sackey',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/259943-1604343025.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/259943-1604343025.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -139,7 +150,8 @@ export default new Vuex.Store({
             playerPathName: 'abdurrahman-canli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/319679-1604342555.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/319679-1604342555.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -147,7 +159,8 @@ export default new Vuex.Store({
             playerPathName: 'adama-traore',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/262608-1606311995.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/262608-1606311995.jpeg?lm=1',
+            twitterName: 'NossTraore'
           },
           {
             playerId: 17,
@@ -155,7 +168,8 @@ export default new Vuex.Store({
             playerPathName: 'rayane-aabid',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/468244-1614803962.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/468244-1614803962.jpeg?lm=1',
+            twitterName: 'RayaneAabid'
           },
           {
             playerId: 18,
@@ -163,7 +177,8 @@ export default new Vuex.Store({
             playerPathName: 'muhammed-mert',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/183233-1611157373.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/183233-1611157373.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -171,7 +186,8 @@ export default new Vuex.Store({
             playerPathName: 'ruben-ribeiro',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/52480-1604342725.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/52480-1604342725.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -179,7 +195,8 @@ export default new Vuex.Store({
             playerPathName: 'joseph-akomadi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/619468-1612017846.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/619468-1612017846.jpeg?lm=1',
+            twitterName: 'akomadi_joseph'
           },
           {
             playerId: 21,
@@ -187,7 +204,8 @@ export default new Vuex.Store({
             playerPathName: 'selim-ilgaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/205551-1608379892.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/205551-1608379892.jpeg?lm=1',
+            twitterName: 'selimilgaz95'
           },
           {
             playerId: 22,
@@ -195,7 +213,8 @@ export default new Vuex.Store({
             playerPathName: 'david-akintola',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/353775-1604342842.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/353775-1604342842.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -203,7 +222,8 @@ export default new Vuex.Store({
             playerPathName: 'aaron-boupendza',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/427605-1604342932.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/427605-1604342932.jpeg?lm=1',
+            twitterName: 'BoupendzaAaron'
           },
           {
             playerId: 24,
@@ -211,7 +231,8 @@ export default new Vuex.Store({
             playerPathName: 'mame-diouf',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/62049-1614804355.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/62049-1614804355.jpeg?lm=1',
+            twitterName: 'MameDiouf99'
           },
           {
             playerId: 25,
@@ -219,7 +240,8 @@ export default new Vuex.Store({
             playerPathName: 'mohammed-kamara',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/637273-1614804412.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/637273-1614804412.jpeg?lm=1',
+            twitterName: 'mkeka10'
           }
         ]
       },
@@ -230,11 +252,12 @@ export default new Vuex.Store({
         players: [
           {
             playerId: 1,
-            name: 'Marafona',
-            playerPathName: 'marafona',
+            name: 'Carlos Marafona',
+            playerPathName: 'carlos-marafona',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/56005-1613784924.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/56005-1613784924.png?lm=1',
+            twitterName: 'carlos_marafona' // 0 tweet
           },
           {
             playerId: 2,
@@ -242,7 +265,8 @@ export default new Vuex.Store({
             playerPathName: 'serkan-kirintili',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/16058-1613784789.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/16058-1613784789.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -250,7 +274,8 @@ export default new Vuex.Store({
             playerPathName: 'cagri-guney',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/655903-1613784862.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/655903-1613784862.png?lm=1',
+            twitterName: 'cagrii31'
           },
           {
             playerId: 4,
@@ -258,7 +283,8 @@ export default new Vuex.Store({
             playerPathName: 'steven-caulker',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/121280-1567776402.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/121280-1567776402.png?lm=1',
+            twitterName: 'StevenCaulker44'
           },
           {
             playerId: 5,
@@ -266,7 +292,8 @@ export default new Vuex.Store({
             playerPathName: 'fatih-aksoy',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/338794-1604684237.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/338794-1604684237.png?lm=1',
+            twitterName: 'aksoyfatih20'
           },
           {
             playerId: 6,
@@ -274,7 +301,8 @@ export default new Vuex.Store({
             playerPathName: 'georgios-tzavellas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/42942-1567776277.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/42942-1567776277.png?lm=1',
+            twitterName: 'GiwrgosTzave22'
           },
           {
             playerId: 7,
@@ -282,7 +310,8 @@ export default new Vuex.Store({
             playerPathName: 'alpay-celebi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/388188-1604684113.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/388188-1604684113.png?lm=1',
+            twitterName: 'Alpaycelebi5'
           },
           {
             playerId: 8,
@@ -290,7 +319,8 @@ export default new Vuex.Store({
             playerPathName: 'francois-moubandje',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/123021-1603130438.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/123021-1603130438.png?lm=1',
+            twitterName: 'moubandjef'
           },
           {
             playerId: 9,
@@ -298,7 +328,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmet-gulay',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/655898-1603130093.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/655898-1603130093.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -306,7 +337,8 @@ export default new Vuex.Store({
             playerPathName: 'juanfran',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/64411-1567776585.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/64411-1567776585.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -314,7 +346,8 @@ export default new Vuex.Store({
             playerPathName: 'tayfur-bingol',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/184440-1567776871.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/184440-1567776871.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -322,7 +355,8 @@ export default new Vuex.Store({
             playerPathName: 'manolis-siopis',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/182688-1567776690.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/182688-1567776690.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -330,7 +364,8 @@ export default new Vuex.Store({
             playerPathName: 'ceyhun-gulselam',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/37216-1567776733.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/37216-1567776733.png?lm=1',
+            twitterName: 'c_gulselam54'
           },
           {
             playerId: 14,
@@ -338,7 +373,8 @@ export default new Vuex.Store({
             playerPathName: 'salih-ucan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/170838-1567776962.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/170838-1567776962.png?lm=1',
+            twitterName: 'salihucan48'
           },
           {
             playerId: 15,
@@ -346,7 +382,8 @@ export default new Vuex.Store({
             playerPathName: 'berkan-kutlu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/469787-1604683778.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/469787-1604683778.png?lm=1',
+            twitterName: 'iamberkankutlu'
           },
           {
             playerId: 16,
@@ -354,7 +391,8 @@ export default new Vuex.Store({
             playerPathName: 'hasan-huseyin-acar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/285634-1612996631.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/285634-1612996631.png?lm=1',
+            twitterName: 'HasanAcar94'
           },
           {
             playerId: 17,
@@ -362,7 +400,8 @@ export default new Vuex.Store({
             playerPathName: 'umut-gunes',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/422203-1567776823.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/422203-1567776823.png?lm=1',
+            twitterName: 'umutxgunes'
           },
           {
             playerId: 18,
@@ -370,7 +409,8 @@ export default new Vuex.Store({
             playerPathName: 'efkan-bekiroglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/327402-1604683645.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/327402-1604683645.png?lm=1',
+            twitterName: 'efkaninho23'
           },
           {
             playerId: 19,
@@ -378,7 +418,8 @@ export default new Vuex.Store({
             playerPathName: 'davidson-pereira',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/397090-1604683878.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/397090-1604683878.png?lm=1',
+            twitterName: 'davidson91_'
           },
           {
             playerId: 20,
@@ -386,7 +427,8 @@ export default new Vuex.Store({
             playerPathName: 'el-mami-tetah',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/858650-1613666115.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/858650-1613666115.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -394,7 +436,8 @@ export default new Vuex.Store({
             playerPathName: 'efecan-karaca',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/50655-1567777076.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/50655-1567777076.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -402,7 +445,8 @@ export default new Vuex.Store({
             playerPathName: 'damian-kadzior',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/199299-1612996568.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/199299-1612996568.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -410,7 +454,8 @@ export default new Vuex.Store({
             playerPathName: 'khouma-babacar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/124902-1604683948.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/124902-1604683948.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -418,7 +463,8 @@ export default new Vuex.Store({
             playerPathName: 'adam-bareiro',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/514120-1603130286.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/514120-1603130286.png?lm=1',
+            twitterName: 'AdamBareiro09'
           },
           {
             playerId: 25,
@@ -426,7 +472,8 @@ export default new Vuex.Store({
             playerPathName: 'mustafa-pektemek',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/58602-1579961318.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/58602-1579961318.png?lm=1',
+            twitterName: 'mpektemek11'
           }
         ]
       },
@@ -441,7 +488,8 @@ export default new Vuex.Store({
             playerPathName: 'ersin-destanoglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/500091-1568210698.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/500091-1568210698.JPG?lm=1',
+            twitterName: 'ErsinDestanoglu'
           },
           {
             playerId: 2,
@@ -449,7 +497,8 @@ export default new Vuex.Store({
             playerPathName: 'utku-yuvakuran',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/342995-1568211087.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/342995-1568211087.JPG?lm=1',
+            twitterName: 'utkuyuvakuran97'
           },
           {
             playerId: 3,
@@ -457,15 +506,17 @@ export default new Vuex.Store({
             playerPathName: 'emre-bilgin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/727147-1599247338.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/727147-1599247338.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
-            name: 'FrancIsco Montero',
-            playerPathName: 'francisco-montero',
+            name: 'JavI Montero',
+            playerPathName: 'javi-montero',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/396333-1599247504.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/396333-1599247504.png?lm=1',
+            twitterName: 'javimontero14'
           },
           {
             playerId: 5,
@@ -473,7 +524,8 @@ export default new Vuex.Store({
             playerPathName: 'domagoj-vida',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/46083-1568211411.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/46083-1568211411.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -481,7 +533,8 @@ export default new Vuex.Store({
             playerPathName: 'welinton-souza',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/95152-1567776321.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/95152-1567776321.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -489,7 +542,8 @@ export default new Vuex.Store({
             playerPathName: 'serdar-saatci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/655899-1607874960.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/655899-1607874960.png?lm=1',
+            twitterName: 'serdarsaatcii'
           },
           {
             playerId: 8,
@@ -497,7 +551,8 @@ export default new Vuex.Store({
             playerPathName: 'ridvan-yilmaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/477930-1554888109.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/477930-1554888109.JPG?lm=1',
+            twitterName: 'ridvan_yilmaz2'
           },
           {
             playerId: 9,
@@ -505,7 +560,8 @@ export default new Vuex.Store({
             playerPathName: 'fabrice-nsakala',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/86930-1567776494.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/86930-1567776494.png?lm=1',
+            twitterName: 'NsakalaFabrice'
           },
           {
             playerId: 10,
@@ -513,7 +569,8 @@ export default new Vuex.Store({
             playerPathName: 'valentin-rosier',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/441170-1582726215.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/441170-1582726215.jpg?lm=1',
+            twitterName: 'VRosier19'
           },
           {
             playerId: 11,
@@ -521,7 +578,8 @@ export default new Vuex.Store({
             playerPathName: 'bilal-ceylan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/739885-1604836296.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/739885-1604836296.png?lm=1',
+            twitterName: 'bilalceylan_19'
           },
           {
             playerId: 12,
@@ -529,7 +587,8 @@ export default new Vuex.Store({
             playerPathName: 'josef-de-souza',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/73741-1604584712.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/73741-1604584712.png?lm=1',
+            twitterName: 'souza5'
           },
           {
             playerId: 13,
@@ -537,7 +596,8 @@ export default new Vuex.Store({
             playerPathName: 'necip-uysal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/77710-1568212985.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/77710-1568212985.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -545,7 +605,8 @@ export default new Vuex.Store({
             playerPathName: 'dorukhan-tokoz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/275935-1568299645.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/275935-1568299645.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -553,7 +614,8 @@ export default new Vuex.Store({
             playerPathName: 'oguzhan-ozyakup',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/77966-1568299821.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/77966-1568299821.JPG?lm=1',
+            twitterName: 'Ozyakup'
           },
           {
             playerId: 16,
@@ -561,7 +623,8 @@ export default new Vuex.Store({
             playerPathName: 'atiba-hutchinson',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/16101-1568299944.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/16101-1568299944.JPG?lm=1',
+            twitterName: 'atibahutchinson'
           },
           {
             playerId: 17,
@@ -569,7 +632,8 @@ export default new Vuex.Store({
             playerPathName: 'adem-ljajic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/69374-1568213594.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/69374-1568213594.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -577,7 +641,8 @@ export default new Vuex.Store({
             playerPathName: 'bernard-mensah',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/324321-1599989148.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/324321-1599989148.jpeg?lm=1',
+            twitterName: 'oliver_mens'
           },
           {
             playerId: 19,
@@ -585,7 +650,8 @@ export default new Vuex.Store({
             playerPathName: 'cyle-larin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/343463-1554051430.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/343463-1554051430.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -593,7 +659,8 @@ export default new Vuex.Store({
             playerPathName: 'georges-kevin-nkoudou',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/215679-1568300768.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/215679-1568300768.JPG?lm=1',
+            twitterName: 'gknkoudou'
           },
           {
             playerId: 21,
@@ -601,7 +668,8 @@ export default new Vuex.Store({
             playerPathName: 'rachid-ghezzal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/118287-1448021528.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/118287-1448021528.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -609,7 +677,8 @@ export default new Vuex.Store({
             playerPathName: 'ajdin-hasic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/522851-1541490453.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/522851-1541490453.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -617,7 +686,8 @@ export default new Vuex.Store({
             playerPathName: 'gokhan-tore',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/82130-1566986330.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/82130-1566986330.jpg?lm=1',
+            twitterName: 'Gokhan_Tore7'
           },
           {
             playerId: 24,
@@ -625,7 +695,8 @@ export default new Vuex.Store({
             playerPathName: 'vincent-aboubakar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/147487-1497535916.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/147487-1497535916.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -633,7 +704,8 @@ export default new Vuex.Store({
             playerPathName: 'cenk-tosun',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/45671-1515068110.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/45671-1515068110.jpg?lm=1',
+            twitterName: 'CenkTosun_'
           }
         ]
       },
@@ -648,7 +720,8 @@ export default new Vuex.Store({
             playerPathName: 'jakub-szumski',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/157848-1612718212.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/157848-1612718212.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 2,
@@ -656,7 +729,8 @@ export default new Vuex.Store({
             playerPathName: 'goktug-bakirbas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/213990-1612718145.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/213990-1612718145.png?lm=1',
+            twitterName: 'goktugbakirbas1'
           },
           {
             playerId: 3,
@@ -664,7 +738,8 @@ export default new Vuex.Store({
             playerPathName: 'kayacan-erdogan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/58825-1604435552.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/58825-1604435552.png?lm=1',
+            twitterName: 'kayacan_erdogan'
           },
           {
             playerId: 4,
@@ -672,7 +747,8 @@ export default new Vuex.Store({
             playerPathName: 'batuhan-unsal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/457522-1604435497.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/457522-1604435497.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -680,7 +756,8 @@ export default new Vuex.Store({
             playerPathName: 'adolphe-teikeu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/105362-1604432725.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/105362-1604432725.png?lm=1',
+            twitterName: 'ATeikeu'
           },
           {
             playerId: 6,
@@ -688,7 +765,8 @@ export default new Vuex.Store({
             playerPathName: 'hasan-hatipoglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/196900-1604435433.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/196900-1604435433.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -696,7 +774,8 @@ export default new Vuex.Store({
             playerPathName: 'gokhan-kardes',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/256777-1604435342.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/256777-1604435342.png?lm=1',
+            twitterName: 'gokhankardes3'
           },
           {
             playerId: 8,
@@ -704,7 +783,8 @@ export default new Vuex.Store({
             playerPathName: 'leo-schwechlen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/60594-1604433512.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/60594-1604433512.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -712,7 +792,8 @@ export default new Vuex.Store({
             playerPathName: 'zakarya-bergdich',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/149540-1612717843.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/149540-1612717843.png?lm=1',
+            twitterName: 'BergdichZakarya'
           },
           {
             playerId: 10,
@@ -720,7 +801,8 @@ export default new Vuex.Store({
             playerPathName: 'bogdan-butko',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/94922-1612717777.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/94922-1612717777.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -728,7 +810,8 @@ export default new Vuex.Store({
             playerPathName: 'murat-ucar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/292545-1604435183.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/292545-1604435183.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -736,7 +819,8 @@ export default new Vuex.Store({
             playerPathName: 'petrus-boumal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/127074-1604433745.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/127074-1604433745.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -744,7 +828,8 @@ export default new Vuex.Store({
             playerPathName: 'johanna-omolo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/85834-1612717689.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/85834-1612717689.png?lm=1',
+            twitterName: 'OmoloJohanna'
           },
           {
             playerId: 14,
@@ -752,7 +837,8 @@ export default new Vuex.Store({
             playerPathName: 'bugra-cagiran',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/221267-1612717636.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/221267-1612717636.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -760,7 +846,8 @@ export default new Vuex.Store({
             playerPathName: 'osman-celik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/293661-1604433342.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/293661-1604433342.png?lm=1',
+            twitterName: 'celikkosmann'
           },
           {
             playerId: 16,
@@ -768,7 +855,8 @@ export default new Vuex.Store({
             playerPathName: 'cenk-ahmet-alkilic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/68211-1604435111.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/68211-1604435111.png?lm=1',
+            twitterName: 'cenkahmet99'
           },
           {
             playerId: 17,
@@ -776,7 +864,8 @@ export default new Vuex.Store({
             playerPathName: 'Gabriel Obertan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/43261-1604434970.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/43261-1604434970.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -784,7 +873,8 @@ export default new Vuex.Store({
             playerPathName: 'ozgur-sert',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/667526-1618658909.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/667526-1618658909.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -792,7 +882,8 @@ export default new Vuex.Store({
             playerPathName: 'arvydas-novikovas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/87444-1603983572.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/87444-1603983572.png?lm=1',
+            twitterName: 'ArvyNovi'
           },
           {
             playerId: 20,
@@ -800,7 +891,8 @@ export default new Vuex.Store({
             playerPathName: 'elba-rashani',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/149579-1612716398.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/149579-1612716398.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -808,7 +900,8 @@ export default new Vuex.Store({
             playerPathName: 'brahim-darri',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/196158-1612716349.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/196158-1612716349.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -816,7 +909,8 @@ export default new Vuex.Store({
             playerPathName: 'emrah-bassan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/177031-1604434880.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/177031-1604434880.png?lm=1',
+            twitterName: 'emrahbassan'
           },
           {
             playerId: 23,
@@ -824,7 +918,8 @@ export default new Vuex.Store({
             playerPathName: 'ricardo-gomes',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/258835-1604432819.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/258835-1604432819.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -832,7 +927,8 @@ export default new Vuex.Store({
             playerPathName: 'oltan-karakullukcu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/171261-1604434829.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/171261-1604434829.png?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -847,7 +943,8 @@ export default new Vuex.Store({
             playerPathName: 'gokhan-akkan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/223025-1604924666.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/223025-1604924666.jpeg?lm=1',
+            twitterName: 'gokhanakkn'
           },
           {
             playerId: 2,
@@ -855,7 +952,8 @@ export default new Vuex.Store({
             playerPathName: 'tarik-cetin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/286170-1566830771.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/286170-1566830771.jpg?lm=1',
+            twitterName: 'cetintarik1'
           },
           {
             playerId: 3,
@@ -863,7 +961,8 @@ export default new Vuex.Store({
             playerPathName: 'zafer-gorgen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/576566-1566831439.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/576566-1566831439.jpg?lm=1',
+            twitterName: 'ZaferGrgn_23'
           },
           {
             playerId: 4,
@@ -871,7 +970,8 @@ export default new Vuex.Store({
             playerPathName: 'yassine-meriah',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/306330-1585411859.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/306330-1585411859.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -879,7 +979,8 @@ export default new Vuex.Store({
             playerPathName: 'emir-dilaver',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/80161-1605122329.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/80161-1605122329.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -887,7 +988,8 @@ export default new Vuex.Store({
             playerPathName: 'montassar-talbi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/496706-1566831542.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/496706-1566831542.jpg?lm=1',
+            twitterName: 'TalbiMontassar'
           },
           {
             playerId: 7,
@@ -895,7 +997,8 @@ export default new Vuex.Store({
             playerPathName: 'selim-ay',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/157175-1572953135.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/157175-1572953135.png?lm=1',
+            twitterName: 'ay_selim5'
           },
           {
             playerId: 8,
@@ -903,7 +1006,8 @@ export default new Vuex.Store({
             playerPathName: 'dario-melnjak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/238500-1566831694.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/238500-1566831694.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -911,7 +1015,8 @@ export default new Vuex.Store({
             playerPathName: 'ismail-koybasi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/74641-1583308954.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/74641-1583308954.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -919,7 +1024,8 @@ export default new Vuex.Store({
             playerPathName: 'alberk-koc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/374882-1582505289.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/374882-1582505289.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -927,7 +1033,8 @@ export default new Vuex.Store({
             playerPathName: 'mykola-morozyuk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/59389-1566831334.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/59389-1566831334.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -935,7 +1042,8 @@ export default new Vuex.Store({
             playerPathName: 'murat-saglam',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/339051-1567076639.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/339051-1567076639.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -943,7 +1051,8 @@ export default new Vuex.Store({
             playerPathName: 'fabrício-baiano',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/282513-1572951752.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/282513-1572951752.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -951,7 +1060,8 @@ export default new Vuex.Store({
             playerPathName: 'yasin-pehlivan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/64016-1605008563.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/64016-1605008563.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -959,7 +1069,8 @@ export default new Vuex.Store({
             playerPathName: 'godfred-donsah',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/291266-1603573113.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/291266-1603573113.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -967,7 +1078,8 @@ export default new Vuex.Store({
             playerPathName: 'erik-sabo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/155597-1604359028.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/155597-1604359028.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -975,7 +1087,8 @@ export default new Vuex.Store({
             playerPathName: 'damjan-djokovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/143039-1485341709.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/143039-1485341709.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -983,7 +1096,8 @@ export default new Vuex.Store({
             playerPathName: 'mithat-pala',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/703720-1603572795.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/703720-1603572795.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -991,7 +1105,8 @@ export default new Vuex.Store({
             playerPathName: 'abdullah-durak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/82713-1566831294.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/82713-1566831294.jpg?lm=1',
+            twitterName: 'abdullahdurak05'
           },
           {
             playerId: 20,
@@ -999,7 +1114,8 @@ export default new Vuex.Store({
             playerPathName: 'onur-bulut',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/152733-1567776922.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/152733-1567776922.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -1007,7 +1123,8 @@ export default new Vuex.Store({
             playerPathName: 'fernando-boldrin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/144752-1566831496.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/144752-1566831496.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -1015,7 +1132,8 @@ export default new Vuex.Store({
             playerPathName: 'braian-samudio',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/520405-1566832915.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/520405-1566832915.jpg?lm=1',
+            twitterName: 'braiansamu18'
           },
           {
             playerId: 23,
@@ -1023,7 +1141,8 @@ export default new Vuex.Store({
             playerPathName: 'fernando-andrade',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/236537-1566990162.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/236537-1566990162.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -1031,7 +1150,8 @@ export default new Vuex.Store({
             playerPathName: 'aminu-umar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/262688-1579457641.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/262688-1579457641.jpeg?lm=1',
+            twitterName: 'Umar_Aminu50'
           },
           {
             playerId: 25,
@@ -1039,7 +1159,8 @@ export default new Vuex.Store({
             playerPathName: 'konrad-michalak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/387160-1611166682.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/387160-1611166682.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
@@ -1047,7 +1168,8 @@ export default new Vuex.Store({
             playerPathName: 'tunay-torun',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/39247-1582505370.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/39247-1582505370.jpeg?lm=1',
+            twitterName: 'TunayTorun55'
           },
           {
             playerId: 27,
@@ -1055,7 +1177,8 @@ export default new Vuex.Store({
             playerPathName: 'emir-dede',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/607253-1583006376.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/607253-1583006376.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -1063,7 +1186,8 @@ export default new Vuex.Store({
             playerPathName: 'loic-remy',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/45121-1603573190.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/45121-1603573190.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -1071,7 +1195,8 @@ export default new Vuex.Store({
             playerPathName: 'alexander-soderlund',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/87479-1517578109.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/87479-1517578109.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 30,
@@ -1079,7 +1204,8 @@ export default new Vuex.Store({
             playerPathName: 'milan-skoda',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/63047-1579457698.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/63047-1579457698.jpeg?lm=1',
+            twitterName: 'skodak21'
           }
         ]
       },
@@ -1094,7 +1220,8 @@ export default new Vuex.Store({
             playerPathName: 'mamadou-samassa',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/72422-1566988608.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/72422-1566988608.jpg?lm=1',
+            twitterName: 'SamassaMamad30'
           },
           {
             playerId: 2,
@@ -1102,7 +1229,8 @@ export default new Vuex.Store({
             playerPathName: 'ali-sasal-vural',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/157178-1566990215.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/157178-1566990215.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -1110,7 +1238,8 @@ export default new Vuex.Store({
             playerPathName: 'muammer-yildirim',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/169927-1566988960.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/169927-1566988960.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -1118,7 +1247,8 @@ export default new Vuex.Store({
             playerPathName: 'aaron-appindangoye',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/254249-1566990118.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/254249-1566990118.jpg?lm=1',
+            twitterName: 'AAppindangoye'
           },
           {
             playerId: 5,
@@ -1126,7 +1256,8 @@ export default new Vuex.Store({
             playerPathName: 'samba-camara',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/291397-1580406617.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/291397-1580406617.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -1134,7 +1265,8 @@ export default new Vuex.Store({
             playerPathName: 'caner-osmanpasa',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/157993-1566990078.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/157993-1566990078.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -1142,7 +1274,8 @@ export default new Vuex.Store({
             playerPathName: 'ugur-ciftci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/172163-1566988477.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/172163-1566988477.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
@@ -1150,7 +1283,8 @@ export default new Vuex.Store({
             playerPathName: 'ziya-erdal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/170644-1566988388.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/170644-1566988388.jpg?lm=1',
+            twitterName: 'ugur3333'
           },
           {
             playerId: 9,
@@ -1158,7 +1292,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmet-oguz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/291758-1610466189.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/291758-1610466189.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -1166,7 +1301,8 @@ export default new Vuex.Store({
             playerPathName: 'alaaddin-okumus',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/216608-1588245748.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/216608-1588245748.JPG?lm=1',
+            twitterName: 'alaaddinokumus'
           },
           {
             playerId: 11,
@@ -1174,7 +1310,8 @@ export default new Vuex.Store({
             playerPathName: 'robin-yalcin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/124422-1566986921.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/124422-1566986921.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -1182,7 +1319,8 @@ export default new Vuex.Store({
             playerPathName: 'claudemir-de-souza',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/68275-1580372351.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/68275-1580372351.jpeg?lm=1',
+            twitterName: 'DSClaudemir'
           },
           {
             playerId: 13,
@@ -1190,7 +1328,8 @@ export default new Vuex.Store({
             playerPathName: 'isaac-cofie',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/99327-1566990031.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/99327-1566990031.jpg?lm=1',
+            twitterName: '1_general_1'
           },
           {
             playerId: 14,
@@ -1198,7 +1337,8 @@ export default new Vuex.Store({
             playerPathName: 'sergiy-rybalka',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/81649-1566988755.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/81649-1566988755.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -1206,7 +1346,8 @@ export default new Vuex.Store({
             playerPathName: 'faycal-fajr',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/174344-1604858790.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/174344-1604858790.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -1214,7 +1355,8 @@ export default new Vuex.Store({
             playerPathName: 'hakan-arslan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/85127-1566989725.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/85127-1566989725.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -1222,7 +1364,8 @@ export default new Vuex.Store({
             playerPathName: 'kerem-atakan-kesgin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/361264-1604859049.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/361264-1604859049.jpeg?lm=1',
+            twitterName: 'Keramatakan20'
           },
           {
             playerId: 18,
@@ -1230,7 +1373,8 @@ export default new Vuex.Store({
             playerPathName: 'max-gradel',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/28140-1604603057.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/28140-1604603057.jpeg?lm=1',
+            twitterName: 'maxigr04del'
           },
           {
             playerId: 19,
@@ -1238,7 +1382,8 @@ export default new Vuex.Store({
             playerPathName: 'casimir-ninga',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/392810-1604603101.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/392810-1604603101.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -1246,7 +1391,8 @@ export default new Vuex.Store({
             playerPathName: 'erdogan-yesilyurt',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/158946-1566989879.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/158946-1566989879.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -1254,7 +1400,8 @@ export default new Vuex.Store({
             playerPathName: 'tyler-boyd',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/203330-1568301181.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/203330-1568301181.JPG?lm=1',
+            twitterName: 'Tyler__Boyd'
           },
           {
             playerId: 22,
@@ -1262,7 +1409,8 @@ export default new Vuex.Store({
             playerPathName: 'olarenwaju-kayode',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/131694-1604603009.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/131694-1604603009.jpeg?lm=1',
+            twitterName: 'larrykaz7_boi'
           },
           {
             playerId: 23,
@@ -1270,7 +1418,8 @@ export default new Vuex.Store({
             playerPathName: 'jorge-felix',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/251930-1573680333.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/251930-1573680333.jpg?lm=1',
+            twitterName: 'JorgeFelix_22'
           },
           {
             playerId: 24,
@@ -1278,7 +1427,8 @@ export default new Vuex.Store({
             playerPathName: 'mustapha-yatabare',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/76386-1566988342.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/76386-1566988342.jpg?lm=1',
+            twitterName: 'MustYatabare9'
           },
           {
             playerId: 25,
@@ -1286,7 +1436,8 @@ export default new Vuex.Store({
             playerPathName: 'arouna-kone',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/8552-1566989605.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/8552-1566989605.jpg?lm=1',
+            twitterName: 'OfficielArounaK'
           }
         ]
       },
@@ -1301,7 +1452,8 @@ export default new Vuex.Store({
             playerPathName: 'aykut-ozer',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/117518-1572862257.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/117518-1572862257.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 2,
@@ -1309,7 +1461,8 @@ export default new Vuex.Store({
             playerPathName: 'emiliano-viviano',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/24316-1448966544.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/24316-1448966544.jpg?lm=1',
+            twitterName: 'EmilianoViviano'
           },
           {
             playerId: 3,
@@ -1317,7 +1470,8 @@ export default new Vuex.Store({
             playerPathName: 'yavuz-aygun',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/299839-1445261841.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/299839-1445261841.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -1325,7 +1479,8 @@ export default new Vuex.Store({
             playerPathName: 'yavuz-ulas-genc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/667915-1601919571.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/667915-1601919571.jpeg?lm=1',
+            twitterName: 'yavuzulasgenc'
           },
           {
             playerId: 5,
@@ -1333,7 +1488,8 @@ export default new Vuex.Store({
             playerPathName: 'muzaffer-kablan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/321714-1572862338.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/321714-1572862338.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -1341,7 +1497,8 @@ export default new Vuex.Store({
             playerPathName: 'enzo-roco',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/186862-1568213299.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/186862-1568213299.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -1349,7 +1506,8 @@ export default new Vuex.Store({
             playerPathName: 'gaston-campi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/292174-1599758025.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/292174-1599758025.jpeg?lm=1',
+            twitterName: 'gastoncampi'
           },
           {
             playerId: 8,
@@ -1357,7 +1515,8 @@ export default new Vuex.Store({
             playerPathName: 'fatih-kurucuk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/337516-1572862134.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/337516-1572862134.jpg?lm=1',
+            twitterName: 'FatihKurucuk'
           },
           {
             playerId: 9,
@@ -1365,7 +1524,8 @@ export default new Vuex.Store({
             playerPathName: 'ervin-zukanovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/44059-1448964735.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/44059-1448964735.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -1373,7 +1533,8 @@ export default new Vuex.Store({
             playerPathName: 'jure-balkovec',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/181410-1598866806.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/181410-1598866806.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -1381,7 +1542,8 @@ export default new Vuex.Store({
             playerPathName: 'alparslan-erdem',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/42050-1572862471.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/42050-1572862471.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -1389,7 +1551,8 @@ export default new Vuex.Store({
             playerPathName: 'koray-altinay',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/148550-1554742800.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/148550-1554742800.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -1397,7 +1560,8 @@ export default new Vuex.Store({
             playerPathName: 'vegar-eggen-hedenstad',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/73333-1470303572.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/73333-1470303572.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -1405,7 +1569,8 @@ export default new Vuex.Store({
             playerPathName: 'lucas-biglia',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/26721-1448467606.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/26721-1448467606.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -1413,7 +1578,8 @@ export default new Vuex.Store({
             playerPathName: 'murat-sarigul',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/641264-1602457436.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/641264-1602457436.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -1421,7 +1587,8 @@ export default new Vuex.Store({
             playerPathName: 'bora-adam',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/869934-1618405586.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/869934-1618405586.jpeg?lm=1',
+            twitterName: 'boraadam61'
           },
           {
             playerId: 17,
@@ -1429,7 +1596,8 @@ export default new Vuex.Store({
             playerPathName: 'andrea-bertolacci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/99227-1474297569.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/99227-1474297569.jpg?lm=1',
+            twitterName: 'Bertolacci'
           },
           {
             playerId: 18,
@@ -1437,7 +1605,8 @@ export default new Vuex.Store({
             playerPathName: 'efe-tatli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/696876-1602457312.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/696876-1602457312.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -1445,7 +1614,8 @@ export default new Vuex.Store({
             playerPathName: 'lucas-castro',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/105892-1596014735.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/105892-1596014735.jpg?lm=1',
+            twitterName: 'Patacastro19'
           },
           {
             playerId: 20,
@@ -1453,7 +1623,8 @@ export default new Vuex.Store({
             playerPathName: 'aksel-aktas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/371147-1575763912.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/371147-1575763912.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -1461,7 +1632,8 @@ export default new Vuex.Store({
             playerPathName: 'fabio-borini',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/96754-1596108934.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/96754-1596108934.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -1469,7 +1641,8 @@ export default new Vuex.Store({
             playerPathName: 'jimmy-durmaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/80205-1572962916.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/80205-1572962916.jpg?lm=1',
+            twitterName: 'JimmyDurmaz21'
           },
           {
             playerId: 23,
@@ -1477,7 +1650,8 @@ export default new Vuex.Store({
             playerPathName: 'serhat-ahmetoglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/667401-1606351302.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/667401-1606351302.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -1485,7 +1659,8 @@ export default new Vuex.Store({
             playerPathName: 'alassane-ndao',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/569777-1599487446.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/569777-1599487446.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -1493,7 +1668,8 @@ export default new Vuex.Store({
             playerPathName: 'yannis-salibur',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/79893-1601131593.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/79893-1601131593.png?lm=1',
+            twitterName: 'YSalibur'
           },
           {
             playerId: 26,
@@ -1501,7 +1677,8 @@ export default new Vuex.Store({
             playerPathName: 'jeremain-lens',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/38497-1568300883.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/38497-1568300883.JPG?lm=1',
+            twitterName: 'jeremainlens'
           },
           {
             playerId: 27,
@@ -1509,7 +1686,8 @@ export default new Vuex.Store({
             playerPathName: 'vato-arveladze',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/345195-1562143361.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/345195-1562143361.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -1517,7 +1695,8 @@ export default new Vuex.Store({
             playerPathName: 'kemal-ademi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/333161-1603566082.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/333161-1603566082.jpeg?lm=1',
+            twitterName: 'KemalAdemi'
           },
           {
             playerId: 29,
@@ -1525,7 +1704,8 @@ export default new Vuex.Store({
             playerPathName: 'artur-sobiech',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/75640-1580393763.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/75640-1580393763.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 30,
@@ -1533,7 +1713,8 @@ export default new Vuex.Store({
             playerPathName: 'mevlut-erdinc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/38360-1570618722.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/38360-1570618722.JPG?lm=1',
+            twitterName: 'meverding9' // gizli hesap
           },
           {
             playerId: 31,
@@ -1541,7 +1722,8 @@ export default new Vuex.Store({
             playerPathName: 'egemen-pehlivan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/697067-1604512654.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/697067-1604512654.jpeg?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -1556,7 +1738,8 @@ export default new Vuex.Store({
             playerPathName: 'altay-bayindir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/336077-1567075907.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/336077-1567075907.JPG?lm=1',
+            twitterName: 'AltayBayindir_1'
           },
           {
             playerId: 2,
@@ -1564,7 +1747,8 @@ export default new Vuex.Store({
             playerPathName: 'harun-tekin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/85213-1567075858.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/85213-1567075858.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -1572,7 +1756,8 @@ export default new Vuex.Store({
             playerPathName: 'oytun-ozdogan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/353860-1592293317.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/353860-1592293317.jpeg?lm=1',
+            twitterName: 'oytunozdogan13'
           },
           {
             playerId: 4,
@@ -1580,7 +1765,8 @@ export default new Vuex.Store({
             playerPathName: 'marcel-tisserand',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/170463-1603566731.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/170463-1603566731.jpeg?lm=1',
+            twitterName: 'TISSERAND32'
           },
           {
             playerId: 5,
@@ -1588,7 +1774,8 @@ export default new Vuex.Store({
             playerPathName: 'attila-szalai',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/263380-1474883999.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/263380-1474883999.jpg?lm=1',
+            twitterName: 'SzalaiAttila41'
           },
           {
             playerId: 6,
@@ -1596,7 +1783,8 @@ export default new Vuex.Store({
             playerPathName: 'serdar-aziz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/44996-1603569792.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/44996-1603569792.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -1604,7 +1792,8 @@ export default new Vuex.Store({
             playerPathName: 'mauricio-lemos',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/303140-1603566823.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/303140-1603566823.jpeg?lm=1',
+            twitterName: 'maulemos3'
           },
           {
             playerId: 8,
@@ -1612,7 +1801,8 @@ export default new Vuex.Store({
             playerPathName: 'sadik-ciftpinar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/176354-1606253157.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/176354-1606253157.jpeg?lm=1',
+            twitterName: 'sadikcftpnr16'
           },
           {
             playerId: 9,
@@ -1620,7 +1810,8 @@ export default new Vuex.Store({
             playerPathName: 'filip-novak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/107665-1603567591.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/107665-1603567591.png?lm=1',
+            twitterName: 'NovakFida'
           },
           {
             playerId: 10,
@@ -1628,7 +1819,8 @@ export default new Vuex.Store({
             playerPathName: 'caner-erkin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/39333-1603566217.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/39333-1603566217.jpeg?lm=1',
+            twitterName: 'CanerErkin'
           },
           {
             playerId: 11,
@@ -1636,7 +1828,8 @@ export default new Vuex.Store({
             playerPathName: 'nazim-sangare',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/157113-1608902656.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/157113-1608902656.jpeg?lm=1',
+            twitterName: 'nazimsangare30'
           },
           {
             playerId: 12,
@@ -1644,7 +1837,8 @@ export default new Vuex.Store({
             playerPathName: 'gokhan-gonul',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/33793-1603567507.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/33793-1603567507.jpeg?lm=1',
+            twitterName: '_gokhangonul'
           },
           {
             playerId: 13,
@@ -1652,7 +1846,8 @@ export default new Vuex.Store({
             playerPathName: 'luiz-gustavo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/10471-1570618782.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/10471-1570618782.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -1660,7 +1855,8 @@ export default new Vuex.Store({
             playerPathName: 'irfan-can-kahveci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/216603-1583153806.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/216603-1583153806.jpg?lm=1',
+            twitterName: 'irfankahveci'
           },
           {
             playerId: 15,
@@ -1668,7 +1864,8 @@ export default new Vuex.Store({
             playerPathName: 'ozan-tufan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/236471-1603565667.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/236471-1603565667.jpeg?lm=1',
+            twitterName: 'Ozan'
           },
           {
             playerId: 16,
@@ -1676,7 +1873,8 @@ export default new Vuex.Store({
             playerPathName: 'jose-sosa',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/20137-1603567042.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/20137-1603567042.jpeg?lm=1',
+            twitterName: 'josesosaok'
           },
           {
             playerId: 17,
@@ -1684,7 +1882,8 @@ export default new Vuex.Store({
             playerPathName: 'dimitrios-pelkas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/212832-1603568471.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/212832-1603568471.jpeg?lm=1',
+            twitterName: 'pelkas'
           },
           {
             playerId: 18,
@@ -1692,7 +1891,8 @@ export default new Vuex.Store({
             playerPathName: 'mesut-ozil',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/35664-1483519286.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/35664-1483519286.jpg?lm=1',
+            twitterName: 'MesutOzil1088'
           },
           {
             playerId: 19,
@@ -1700,7 +1900,8 @@ export default new Vuex.Store({
             playerPathName: 'mert-hakan-yandas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/306462-1607902168.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/306462-1607902168.png?lm=1',
+            twitterName: 'MHYandas'
           },
           {
             playerId: 20,
@@ -1708,7 +1909,8 @@ export default new Vuex.Store({
             playerPathName: 'omer-beyaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/588020-1598700578.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/588020-1598700578.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -1716,7 +1918,8 @@ export default new Vuex.Store({
             playerPathName: 'mame-thiam',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/163053-1603567808.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/163053-1603567808.jpeg?lm=1',
+            twitterName: 'Mame27Thiam'
           },
           {
             playerId: 22,
@@ -1724,7 +1927,8 @@ export default new Vuex.Store({
             playerPathName: 'diego-perotti',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/54984-1603565967.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/54984-1603565967.jpeg?lm=1',
+            twitterName: 'D_10Perotti'
           },
           {
             playerId: 23,
@@ -1732,7 +1936,8 @@ export default new Vuex.Store({
             playerPathName: 'ferdi-kadioglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/369316-1603565775.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/369316-1603565775.jpeg?lm=1',
+            twitterName: 'Ferdi_kadioglu'
           },
           {
             playerId: 24,
@@ -1740,7 +1945,8 @@ export default new Vuex.Store({
             playerPathName: 'bright-osayi-samuel',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/358948-1611772287.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/358948-1611772287.jpeg?lm=1',
+            twitterName: 'Bright_097'
           },
           {
             playerId: 25,
@@ -1748,15 +1954,17 @@ export default new Vuex.Store({
             playerPathName: 'sinan-gumus',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/196524-1603567115.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/196524-1603567115.jpeg?lm=1',
+            twitterName: 'sinanguemues18'
           },
           {
             playerId: 26,
             name: 'Mbwana Samatta',
-            playerPathName: 'mbwana-zamatta',
+            playerPathName: 'mbwana-samatta',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/182201-1603568231.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/182201-1603568231.jpeg?lm=1',
+            twitterName: 'Samagoal_77'
           },
           {
             playerId: 27,
@@ -1764,7 +1972,8 @@ export default new Vuex.Store({
             playerPathName: 'enner-valencia',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/139503-1603567945.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/139503-1603567945.jpeg?lm=1',
+            twitterName: 'EnnerValencia14'
           },
           {
             playerId: 28,
@@ -1772,7 +1981,8 @@ export default new Vuex.Store({
             playerPathName: 'papiss-demba-cisse',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/33952-1603566371.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/33952-1603566371.jpeg?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -1787,7 +1997,8 @@ export default new Vuex.Store({
             playerPathName: 'ruud-boffin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/31336-1593642657.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/31336-1593642657.jpeg?lm=1',
+            twitterName: '25_boffin'
           },
           {
             playerId: 2,
@@ -1795,7 +2006,8 @@ export default new Vuex.Store({
             playerPathName: 'ferhat-kaplan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/93104-1593642222.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/93104-1593642222.jpeg?lm=1',
+            twitterName: 'kaleciferhat'
           },
           {
             playerId: 3,
@@ -1803,7 +2015,8 @@ export default new Vuex.Store({
             playerPathName: 'dogukan-ozkan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/537611-1600812253.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/537611-1600812253.png?lm=1',
+            twitterName: 'dogukanozkann1'
           },
           {
             playerId: 4,
@@ -1811,7 +2024,8 @@ export default new Vuex.Store({
             playerPathName: 'enes-sancar-sahin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/617875-1593285736.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/617875-1593285736.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -1819,7 +2033,8 @@ export default new Vuex.Store({
             playerPathName: 'naldo-pereira',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/148666-1445431572.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/148666-1445431572.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -1827,7 +2042,8 @@ export default new Vuex.Store({
             playerPathName: 'veysel-sari',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/88374-1593641896.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/88374-1593641896.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -1835,7 +2051,8 @@ export default new Vuex.Store({
             playerPathName: 'ersan-gulum',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/44982-1593641773.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/44982-1593641773.png?lm=1',
+            twitterName: 'GlmErsan'
           },
           {
             playerId: 8,
@@ -1843,7 +2060,8 @@ export default new Vuex.Store({
             playerPathName: 'bahadir-ozturk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/353970-1593641975.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/353970-1593641975.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -1851,7 +2069,8 @@ export default new Vuex.Store({
             playerPathName: 'fedor-kudryashov',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/48634-1593641863.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/48634-1593641863.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -1859,7 +2078,8 @@ export default new Vuex.Store({
             playerPathName: 'eren-albayrak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/59931-1569851935.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/59931-1569851935.png?lm=1',
+            twitterName: 'AlbayrakEren'
           },
           {
             playerId: 11,
@@ -1867,7 +2087,8 @@ export default new Vuex.Store({
             playerPathName: 'ali-eren-iyican',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/554066-1588247644.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/554066-1588247644.jpg?lm=1',
+            twitterName: 'aliereniyicann'
           },
           {
             playerId: 12,
@@ -1875,7 +2096,8 @@ export default new Vuex.Store({
             playerPathName: 'bunyamin-balci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/620072-1569521504.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/620072-1569521504.png?lm=1',
+            twitterName: 'BnyaminBalc6'
           },
           {
             playerId: 13,
@@ -1883,7 +2105,8 @@ export default new Vuex.Store({
             playerPathName: 'mert-yilmaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/393217-1565011001.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/393217-1565011001.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -1891,7 +2114,8 @@ export default new Vuex.Store({
             playerPathName: 'ufuk-akyol',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/241251-1569851589.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/241251-1569851589.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -1899,7 +2123,8 @@ export default new Vuex.Store({
             playerPathName: 'nuri-sahin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/31095-1502448530.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/31095-1502448530.jpg?lm=1',
+            twitterName: 'nurisahin'
           },
           {
             playerId: 16,
@@ -1907,7 +2132,8 @@ export default new Vuex.Store({
             playerPathName: 'mevlut-han-ekelik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/727082-1600811749.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/727082-1600811749.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -1915,7 +2141,8 @@ export default new Vuex.Store({
             playerPathName: 'hakan-ozmert',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/17465-1614318714.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/17465-1614318714.jpeg?lm=1',
+            twitterName: 'ozmerthakan'
           },
           {
             playerId: 18,
@@ -1923,23 +2150,26 @@ export default new Vuex.Store({
             playerPathName: 'dogukan-sinik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/370833-1545496591.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/370833-1545496591.jpeg?lm=1',
+            twitterName: 'dogukansinik'
           },
           {
             playerId: 19,
-            name: 'Fredy Alfredo',
-            playerPathName: 'fredy-alfredo',
+            name: 'Fredy RIberIo',
+            playerPathName: 'fredy-riberio',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/87854-1569851848.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/87854-1569851848.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
-            name: 'AmIlton Da SIlva',
-            playerPathName: 'amilton-da-silva',
+            name: 'AmIlton MInervIno',
+            playerPathName: 'amilton-minervino',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/227676-1569851644.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/227676-1569851644.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -1947,7 +2177,8 @@ export default new Vuex.Store({
             playerPathName: 'jean-armel-drole',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/390667-1615143256.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/390667-1615143256.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -1955,7 +2186,8 @@ export default new Vuex.Store({
             playerPathName: 'serdar-poyraz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/795140-1595171992.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/795140-1595171992.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -1963,7 +2195,8 @@ export default new Vuex.Store({
             playerPathName: 'gokdeniz-bayrakdar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/345105-1600811710.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/345105-1600811710.png?lm=1',
+            twitterName: 'gokdenizz7'
           },
           {
             playerId: 24,
@@ -1971,7 +2204,8 @@ export default new Vuex.Store({
             playerPathName: 'serdar-gurler',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/98512-1584274422.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/98512-1584274422.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -1979,15 +2213,17 @@ export default new Vuex.Store({
             playerPathName: 'sidney-sam',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/39102-1531903955.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/39102-1531903955.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
-            name: 'Omar ImerI Sam',
+            name: 'Omar ImerI',
             playerPathName: 'Omar Imeri',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/535537-1600812116.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/535537-1600812116.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -1995,7 +2231,8 @@ export default new Vuex.Store({
             playerPathName: 'lukas-podolski',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/15185-1589664978.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/15185-1589664978.png?lm=1',
+            twitterName: 'Podolski10'
           },
           {
             playerId: 28,
@@ -2003,7 +2240,8 @@ export default new Vuex.Store({
             playerPathName: 'dever-orgill',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/103621-1555243511.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/103621-1555243511.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -2011,7 +2249,8 @@ export default new Vuex.Store({
             playerPathName: 'fehmi-koc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/630023-1552992793.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/630023-1552992793.jpg?lm=1',
+            twitterName: 'fehmi_9'
           }
         ]
       },
@@ -2026,7 +2265,8 @@ export default new Vuex.Store({
             playerPathName: 'fernando-muslera',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/58088-1572949088.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/58088-1572949088.jpg?lm=1',
+            twitterName: '1_Muslera_25'
           },
           {
             playerId: 2,
@@ -2034,7 +2274,8 @@ export default new Vuex.Store({
             playerPathName: 'okan-kocuk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/204189-1572949480.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/204189-1572949480.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -2042,7 +2283,8 @@ export default new Vuex.Store({
             playerPathName: 'fatih-ozturk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/209574-1607186190.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/209574-1607186190.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -2050,7 +2292,8 @@ export default new Vuex.Store({
             playerPathName: 'marcao-teixeira',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/439022-1572951832.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/439022-1572951832.jpg?lm=1',
+            twitterName: 'teixeira_marcao'
           },
           {
             playerId: 5,
@@ -2058,7 +2301,8 @@ export default new Vuex.Store({
             playerPathName: 'christian-luyindama',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/262793-1572950736.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/262793-1572950736.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -2066,7 +2310,8 @@ export default new Vuex.Store({
             playerPathName: 'ryan-donk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/38414-1572952086.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/38414-1572952086.jpg?lm=1',
+            twitterName: 'Ryan_Donk18'
           },
           {
             playerId: 7,
@@ -2074,7 +2319,8 @@ export default new Vuex.Store({
             playerPathName: 'valentine-ozornwafor',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/647950-1607186391.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/647950-1607186391.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
@@ -2082,7 +2328,8 @@ export default new Vuex.Store({
             playerPathName: 'marcelo-saracchi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/373916-1608892184.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/373916-1608892184.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -2090,7 +2337,8 @@ export default new Vuex.Store({
             playerPathName: 'omer-bayram',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/117586-1572959849.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/117586-1572959849.jpg?lm=1',
+            twitterName: 'omerbayram19_'
           },
           {
             playerId: 10,
@@ -2098,7 +2346,8 @@ export default new Vuex.Store({
             playerPathName: 'emre-tasdemir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/204201-1572952121.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/204201-1572952121.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -2106,7 +2355,8 @@ export default new Vuex.Store({
             playerPathName: 'deandre-yedlin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/255916-1612642870.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/255916-1612642870.jpeg?lm=1',
+            twitterName: 'yedlinny'
           },
           {
             playerId: 12,
@@ -2114,7 +2364,8 @@ export default new Vuex.Store({
             playerPathName: 'omar-elabdellaoui',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/121404-1609450472.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/121404-1609450472.jpeg?lm=1',
+            twitterName: 'OmarEla14'
           },
           {
             playerId: 13,
@@ -2122,7 +2373,8 @@ export default new Vuex.Store({
             playerPathName: 'martin-linnes',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/137582-1572951974.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/137582-1572951974.jpg?lm=1',
+            twitterName: 'M_Linnes'
           },
           {
             playerId: 14,
@@ -2130,7 +2382,8 @@ export default new Vuex.Store({
             playerPathName: 'sener-ozbayrakli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/169873-1572952184.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/169873-1572952184.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -2138,7 +2391,8 @@ export default new Vuex.Store({
             playerPathName: 'taylan-antalyali',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/204176-1572001631.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/204176-1572001631.jpg?lm=1',
+            twitterName: 'Tantalyali48'
           },
           {
             playerId: 16,
@@ -2146,7 +2400,8 @@ export default new Vuex.Store({
             playerPathName: 'gedson-fernandes',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/337800-1537350780.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/337800-1537350780.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -2154,7 +2409,8 @@ export default new Vuex.Store({
             playerPathName: 'oghenekaro-etebo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/409106-1610479977.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/409106-1610479977.jpeg?lm=1',
+            twitterName: 'etebo_karo'
           },
           {
             playerId: 18,
@@ -2162,7 +2418,8 @@ export default new Vuex.Store({
             playerPathName: 'emre-akbaba',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/278654-1572959614.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/278654-1572959614.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -2170,7 +2427,8 @@ export default new Vuex.Store({
             playerPathName: 'henry-onyekuru',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/380415-1611598682.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/380415-1611598682.jpeg?lm=1',
+            twitterName: 'henryconyekuru'
           },
           {
             playerId: 20,
@@ -2178,7 +2436,8 @@ export default new Vuex.Store({
             playerPathName: 'ryan-babel',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/16135-1572962666.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/16135-1572962666.jpg?lm=1',
+            twitterName: 'Ryanbabel'
           },
           {
             playerId: 21,
@@ -2186,7 +2445,8 @@ export default new Vuex.Store({
             playerPathName: 'kerem-akturkoglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/382528-1612642980.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/382528-1612642980.jpeg?lm=1',
+            twitterName: 'keremakturkoglu'
           },
           {
             playerId: 22,
@@ -2194,7 +2454,8 @@ export default new Vuex.Store({
             playerPathName: 'arda-turan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/21369-1515403225.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/21369-1515403225.jpg?lm=1',
+            twitterName: 'ArdaTuran'
           },
           {
             playerId: 23,
@@ -2202,7 +2463,8 @@ export default new Vuex.Store({
             playerPathName: 'emre-kilinc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/208848-1566989944.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/208848-1566989944.jpg?lm=1',
+            twitterName: 'Emreeklnc54'
           },
           {
             playerId: 24,
@@ -2210,7 +2472,8 @@ export default new Vuex.Store({
             playerPathName: 'sofiane-feghouli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/57162-1572962624.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/57162-1572962624.jpg?lm=1',
+            twitterName: 'sffeghouli'
           },
           {
             playerId: 25,
@@ -2218,7 +2481,8 @@ export default new Vuex.Store({
             playerPathName: 'ogulcan-caglayan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/248219-1608080207.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/248219-1608080207.jpeg?lm=1',
+            twitterName: 'CglynOgulcan'
           },
           {
             playerId: 26,
@@ -2226,7 +2490,8 @@ export default new Vuex.Store({
             playerPathName: 'mostafa-mohamed',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/462348-1612643085.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/462348-1612643085.jpeg?lm=1',
+            twitterName: 'mmostafa_11'
           },
           {
             playerId: 27,
@@ -2234,7 +2499,8 @@ export default new Vuex.Store({
             playerPathName: 'radamel-falcao',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/39152-1572000460.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/39152-1572000460.jpg?lm=1',
+            twitterName: 'FALCAO'
           },
           {
             playerId: 28,
@@ -2242,7 +2508,8 @@ export default new Vuex.Store({
             playerPathName: 'halil-dervisoglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/465606-1562226032.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/465606-1562226032.jpg?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -2257,7 +2524,8 @@ export default new Vuex.Store({
             playerPathName: 'gunay-guvenc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/114422-1601146717.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/114422-1601146717.jpeg?lm=1',
+            twitterName: 'gnygvc'
           },
           {
             playerId: 2,
@@ -2265,7 +2533,8 @@ export default new Vuex.Store({
             playerPathName: 'caglar-akbaba',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/264431-1601146652.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/264431-1601146652.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -2273,7 +2542,8 @@ export default new Vuex.Store({
             playerPathName: 'mustafa-burak-bozan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/587726-1601146766.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/587726-1601146766.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -2281,7 +2551,8 @@ export default new Vuex.Store({
             playerPathName: 'papy-djilobodji',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/136610-1572959932.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/136610-1572959932.jpg?lm=1',
+            twitterName: 'papydjilo15'
           },
           {
             playerId: 5,
@@ -2289,7 +2560,8 @@ export default new Vuex.Store({
             playerPathName: 'alin-tosca',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/148004-1572960021.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/148004-1572960021.jpg?lm=1',
+            twitterName: 'ToscaAlin'
           },
           {
             playerId: 6,
@@ -2297,7 +2569,8 @@ export default new Vuex.Store({
             playerPathName: 'roderick-miranda',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/87856-1614509316.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/87856-1614509316.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -2305,7 +2578,8 @@ export default new Vuex.Store({
             playerPathName: 'ertugrul-ersoy',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/251079-1614509283.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/251079-1614509283.jpeg?lm=1',
+            twitterName: 'ertugrulersoy_4'
           },
           {
             playerId: 8,
@@ -2313,7 +2587,8 @@ export default new Vuex.Store({
             playerPathName: 'jean-armel-kana-biyik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/57404-1572959990.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/57404-1572959990.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -2321,7 +2596,8 @@ export default new Vuex.Store({
             playerPathName: 'ulas-zengin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/354259-1572960148.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/354259-1572960148.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -2329,7 +2605,8 @@ export default new Vuex.Store({
             playerPathName: 'guray-vural',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/52281-1572961569.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/52281-1572961569.jpg?lm=1',
+            twitterName: '22gry_sym'
           },
           {
             playerId: 11,
@@ -2337,7 +2614,8 @@ export default new Vuex.Store({
             playerPathName: 'junior-morais',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/125069-1572960206.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/125069-1572960206.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -2345,7 +2623,8 @@ export default new Vuex.Store({
             playerPathName: 'oguz-ceylan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/139316-1572960437.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/139316-1572960437.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -2353,7 +2632,8 @@ export default new Vuex.Store({
             playerPathName: 'pawel-olkowski',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/117469-1572960352.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/117469-1572960352.jpg?lm=1',
+            twitterName: 'PawelOlkowski'
           },
           {
             playerId: 14,
@@ -2361,7 +2641,8 @@ export default new Vuex.Store({
             playerPathName: 'abdul-aziz-tetteh',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/157003-1572960469.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/157003-1572960469.jpg?lm=1',
+            twitterName: 'aziz_tetteh'
           },
           {
             playerId: 15,
@@ -2369,7 +2650,8 @@ export default new Vuex.Store({
             playerPathName: 'jefferson-nogueira-junior',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/252922-1572960505.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/252922-1572960505.jpg?lm=1',
+            twitterName: 'jeffersonjr_8'
           },
           {
             playerId: 16,
@@ -2377,7 +2659,8 @@ export default new Vuex.Store({
             playerPathName: 'osama-rashid',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/95429-1614509354.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/95429-1614509354.jpeg?lm=1',
+            twitterName: 'OsamaRashid92'
           },
           {
             playerId: 17,
@@ -2385,7 +2668,8 @@ export default new Vuex.Store({
             playerPathName: 'amedej-vetrih',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/121481-1603999699.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/121481-1603999699.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -2393,7 +2677,8 @@ export default new Vuex.Store({
             playerPathName: 'zvonimir-kozulj',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/194205-1601146422.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/194205-1601146422.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -2401,7 +2686,8 @@ export default new Vuex.Store({
             playerPathName: 'andre-sousa',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/187860-1583005401.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/187860-1583005401.jpeg?lm=1',
+            twitterName: 'asousa8'
           },
           {
             playerId: 20,
@@ -2409,7 +2695,8 @@ export default new Vuex.Store({
             playerPathName: 'alexandru-maxim',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/129513-1583005455.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/129513-1583005455.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -2417,7 +2704,8 @@ export default new Vuex.Store({
             playerPathName: 'furkan-soyalp',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/221285-1572961440.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/221285-1572961440.jpg?lm=1',
+            twitterName: 'furkansoyalp'
           },
           {
             playerId: 22,
@@ -2425,7 +2713,8 @@ export default new Vuex.Store({
             playerPathName: 'bilal-basacikoglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/224256-1614509238.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/224256-1614509238.jpeg?lm=1',
+            twitterName: 'Basacikoglu_'
           },
           {
             playerId: 23,
@@ -2433,7 +2722,8 @@ export default new Vuex.Store({
             playerPathName: 'mirza-cihan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/583970-1603999457.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/583970-1603999457.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -2441,7 +2731,8 @@ export default new Vuex.Store({
             playerPathName: 'kevin-mirallas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/33639-1605139873.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/33639-1605139873.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -2449,7 +2740,8 @@ export default new Vuex.Store({
             playerPathName: 'cenk-sahin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/167042-1601146517.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/167042-1601146517.jpeg?lm=1',
+            twitterName: 'CenkSahin67'
           },
           {
             playerId: 26,
@@ -2457,7 +2749,8 @@ export default new Vuex.Store({
             playerPathName: 'muhammet-demir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/83560-1605139802.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/83560-1605139802.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -2465,7 +2758,8 @@ export default new Vuex.Store({
             playerPathName: 'andre-de-souza',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/104509-1601146473.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/104509-1601146473.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -2473,7 +2767,8 @@ export default new Vuex.Store({
             playerPathName: 'nouha-dicko',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/173750-1604609577.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/173750-1604609577.jpeg?lm=1',
+            twitterName: 'DNouha'
           },
           {
             playerId: 29,
@@ -2481,7 +2776,8 @@ export default new Vuex.Store({
             playerPathName: 'kenan-ozer',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/38195-1572961830.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/38195-1572961830.jpg?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -2496,7 +2792,8 @@ export default new Vuex.Store({
             playerPathName: 'kristoffer-nordfeldt',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/75890-1580915057.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/75890-1580915057.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 2,
@@ -2504,7 +2801,8 @@ export default new Vuex.Store({
             playerPathName: 'ubeyd-adiyaman',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/251070-1572951316.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/251070-1572951316.jpg?lm=1',
+            twitterName: 'Ubeyd02'
           },
           {
             playerId: 3,
@@ -2512,7 +2810,8 @@ export default new Vuex.Store({
             playerPathName: 'yasin-davus',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/315798-1612376854.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/315798-1612376854.jpeg?lm=1',
+            twitterName: 'YasinDavus'
           },
           {
             playerId: 4,
@@ -2520,7 +2819,8 @@ export default new Vuex.Store({
             playerPathName: 'atalay-gökce',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/656206-1616345233.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/656206-1616345233.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -2528,7 +2828,8 @@ export default new Vuex.Store({
             playerPathName: 'arda-kizildag',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/532905-1607865073.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/532905-1607865073.jpeg?lm=1',
+            twitterName: 'ardakizildag4'
           },
           {
             playerId: 6,
@@ -2536,7 +2837,8 @@ export default new Vuex.Store({
             playerPathName: 'zargo-toure',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/81663-1605110290.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/81663-1605110290.jpeg?lm=1',
+            twitterName: 'GozarZargo'
           },
           {
             playerId: 7,
@@ -2544,7 +2846,8 @@ export default new Vuex.Store({
             playerPathName: 'diego-angelo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/59333-1545499726.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/59333-1545499726.jpeg?lm=1',
+            twitterName: 'diegoangelo03'
           },
           {
             playerId: 8,
@@ -2552,7 +2855,8 @@ export default new Vuex.Store({
             playerPathName: 'metehan-mert',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/59333-1545499726.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/59333-1545499726.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -2560,7 +2864,8 @@ export default new Vuex.Store({
             playerPathName: 'abdullah-sahindere',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/655901-1616348009.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/655901-1616348009.jpeg?lm=1',
+            twitterName: 'sahindere55'
           },
           {
             playerId: 10,
@@ -2568,7 +2873,8 @@ export default new Vuex.Store({
             playerPathName: 'mustafa-akbas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/98113-1566986728.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/98113-1566986728.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -2576,7 +2882,8 @@ export default new Vuex.Store({
             playerPathName: 'pierre-yves-polomat',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/203764-1572951495.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/203764-1572951495.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -2584,7 +2891,8 @@ export default new Vuex.Store({
             playerPathName: 'ibrahim-pehlivan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/291760-1607864955.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/291760-1607864955.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -2592,7 +2900,8 @@ export default new Vuex.Store({
             playerPathName: 'mattias-johansson',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/132014-1604846197.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/132014-1604846197.jpeg?lm=1',
+            twitterName: 'm_johansson2'
           },
           {
             playerId: 14,
@@ -2600,7 +2909,8 @@ export default new Vuex.Store({
             playerPathName: 'omurcan-artan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/702988-1604390387.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/702988-1604390387.jpeg?lm=1',
+            twitterName: 'Omurcan27'
           },
           {
             playerId: 15,
@@ -2608,7 +2918,8 @@ export default new Vuex.Store({
             playerPathName: 'piris-da-motta',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/273033-1616348221.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/273033-1616348221.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -2616,7 +2927,8 @@ export default new Vuex.Store({
             playerPathName: 'soner-dikmen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/291750-1572951778.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/291750-1572951778.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -2624,7 +2936,8 @@ export default new Vuex.Store({
             playerPathName: 'mustafa-seyhan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/391496-1567691187.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/391496-1567691187.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -2632,7 +2945,8 @@ export default new Vuex.Store({
             playerPathName: 'dominik-furman',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/74687-1565701104.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/74687-1565701104.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -2640,7 +2954,8 @@ export default new Vuex.Store({
             playerPathName: 'murat-yildirim',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/35530-1566986665.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/35530-1566986665.jpg?lm=1',
+            twitterName: 'iammuratyldrm'
           },
           {
             playerId: 20,
@@ -2648,7 +2963,8 @@ export default new Vuex.Store({
             playerPathName: 'rahmetullah-berisbek',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/534706-1572951869.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/534706-1572951869.jpg?lm=1',
+            twitterName: 'Rahmetullah66'
           },
           {
             playerId: 21,
@@ -2656,7 +2972,8 @@ export default new Vuex.Store({
             playerPathName: 'lucas-mugni',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/148231-1612376706.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/148231-1612376706.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -2664,7 +2981,8 @@ export default new Vuex.Store({
             playerPathName: 'srdjan-spiridonovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/124774-1612376790.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/124774-1612376790.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -2672,7 +2990,8 @@ export default new Vuex.Store({
             playerPathName: 'floyd-ayite',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/77974-1572951939.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/77974-1572951939.jpg?lm=1',
+            twitterName: 'AyiteF'
           },
           {
             playerId: 24,
@@ -2680,7 +2999,8 @@ export default new Vuex.Store({
             playerPathName: 'daniel-candeias',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/56046-1572952279.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/56046-1572952279.jpg?lm=1',
+            twitterName: 'Dcandeias11'
           },
           {
             playerId: 25,
@@ -2688,7 +3008,8 @@ export default new Vuex.Store({
             playerPathName: 'sefa-yilmaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/56518-1607864884.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/56518-1607864884.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
@@ -2696,7 +3017,8 @@ export default new Vuex.Store({
             playerPathName: 'giovanni-sio',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/76293-1613907051.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/76293-1613907051.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -2704,7 +3026,8 @@ export default new Vuex.Store({
             playerPathName: 'gokhan-altiparmak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/740515-1604843125.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/740515-1604843125.png?lm=1',
+            twitterName: 'gokhanaltprmkk'
           },
           {
             playerId: 28,
@@ -2712,7 +3035,8 @@ export default new Vuex.Store({
             playerPathName: 'bogdan-stancu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/46658-1572952249.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/46658-1572952249.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -2720,7 +3044,8 @@ export default new Vuex.Store({
             playerPathName: 'sandro-lima',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/284739-1612376662.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/284739-1612376662.jpeg?lm=1',
+            twitterName: 'SandroL91'
           },
           {
             playerId: 30,
@@ -2728,7 +3053,8 @@ export default new Vuex.Store({
             playerPathName: 'ilker-karakas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/352721-1572952314.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/352721-1572952314.jpg?lm=1',
+            twitterName: 'ilkerkarakas41'
           }
         ]
       },
@@ -2743,7 +3069,8 @@ export default new Vuex.Store({
             playerPathName: 'irfan-can-egribayat',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/322873-1608473119.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/322873-1608473119.png?lm=1',
+            twitterName: 'canegribayat'
           },
           {
             playerId: 2,
@@ -2751,7 +3078,8 @@ export default new Vuex.Store({
             playerPathName: 'balázs-megyeri',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/98428-1618417106.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/98428-1618417106.jpeg?lm=1',
+            twitterName: 'megyo42'
           },
           {
             playerId: 3,
@@ -2759,7 +3087,8 @@ export default new Vuex.Store({
             playerPathName: 'arda-ozcimen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/615430-1612910812.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/615430-1612910812.jpeg?lm=1',
+            twitterName: 'ArdaOzcimen13'
           },
           {
             playerId: 4,
@@ -2767,7 +3096,8 @@ export default new Vuex.Store({
             playerPathName: 'alpaslan-ozturk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/138736-1589337293.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/138736-1589337293.png?lm=1',
+            twitterName: 'Ozturk5Alpaslan'
           },
           {
             playerId: 5,
@@ -2775,7 +3105,8 @@ export default new Vuex.Store({
             playerPathName: 'marko-mihojevic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/235646-1619297684.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/235646-1619297684.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -2783,7 +3114,8 @@ export default new Vuex.Store({
             playerPathName: 'atinc-nukan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/149516-1532352567.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/149516-1532352567.jpg?lm=1',
+            twitterName: 'atincnukan93'
           },
           {
             playerId: 7,
@@ -2791,7 +3123,8 @@ export default new Vuex.Store({
             playerPathName: 'dzenan-burekovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/227639-1592155950.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/227639-1592155950.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
@@ -2799,7 +3132,8 @@ export default new Vuex.Store({
             playerPathName: 'berkan-emir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/241902-1612910585.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/241902-1612910585.jpeg?lm=1',
+            twitterName: 'EmirBerkan'
           },
           {
             playerId: 9,
@@ -2807,7 +3141,8 @@ export default new Vuex.Store({
             playerPathName: 'murat-paluli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/288858-1589942009.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/288858-1589942009.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -2815,7 +3150,8 @@ export default new Vuex.Store({
             playerPathName: 'kerim-alici',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/341646-1572443923.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/341646-1572443923.jpg?lm=1',
+            twitterName: 'kerimalici'
           },
           {
             playerId: 11,
@@ -2823,7 +3159,8 @@ export default new Vuex.Store({
             playerPathName: 'lamine-gassama',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/60539-1538169216.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/60539-1538169216.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -2831,7 +3168,8 @@ export default new Vuex.Store({
             playerPathName: 'anderson-esiti',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/245027-1611443240.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/245027-1611443240.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -2839,7 +3177,8 @@ export default new Vuex.Store({
             playerPathName: 'kubilay-sonmez',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/160512-1597421292.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/160512-1597421292.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -2847,7 +3186,8 @@ export default new Vuex.Store({
             playerPathName: 'tolga-topaloglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/507167-1608987274.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/507167-1608987274.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -2855,7 +3195,8 @@ export default new Vuex.Store({
             playerPathName: 'peter-zulj',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/128105-1610388892.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/128105-1610388892.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -2863,7 +3204,8 @@ export default new Vuex.Store({
             playerPathName: 'soner-aydogdu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/85291-1583155438.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/85291-1583155438.jpg?lm=1',
+            twitterName: 'soneraydogdu10'
           },
           {
             playerId: 17,
@@ -2871,7 +3213,8 @@ export default new Vuex.Store({
             playerPathName: 'obinna-nwobodo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/364299-1612910926.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/364299-1612910926.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -2879,7 +3222,8 @@ export default new Vuex.Store({
             playerPathName: 'yalcin-kayan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/605266-1612910735.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/605266-1612910735.jpeg?lm=1',
+            twitterName: 'YalcinKayan30'
           },
           {
             playerId: 19,
@@ -2887,7 +3231,8 @@ export default new Vuex.Store({
             playerPathName: 'efe-binici',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/667563-1612910681.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/667563-1612910681.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -2895,7 +3240,8 @@ export default new Vuex.Store({
             playerPathName: 'metin-yildirim',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/660139-1614319750.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/660139-1614319750.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -2903,7 +3249,8 @@ export default new Vuex.Store({
             playerPathName: 'zlatko-tripic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/195274-1612910872.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/195274-1612910872.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -2911,7 +3258,8 @@ export default new Vuex.Store({
             playerPathName: 'beykan-simsek',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/176341-1609838569.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/176341-1609838569.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -2919,7 +3267,8 @@ export default new Vuex.Store({
             playerPathName: 'batuhan-kirdaroglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/620188-1593822532.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/620188-1593822532.jpeg?lm=1',
+            twitterName: 'batukirdar_'
           },
           {
             playerId: 24,
@@ -2927,7 +3276,8 @@ export default new Vuex.Store({
             playerPathName: 'yilmaz-basravi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/625812-1615775512.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/625812-1615775512.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -2935,7 +3285,8 @@ export default new Vuex.Store({
             playerPathName: 'halil-akbunar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/212229-1599995155.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/212229-1599995155.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
@@ -2943,7 +3294,8 @@ export default new Vuex.Store({
             playerPathName: 'fousseni-diabate',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/364861-1602167103.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/364861-1602167103.png?lm=1',
+            twitterName: 'F_Diabate27'
           },
           {
             playerId: 27,
@@ -2951,7 +3303,8 @@ export default new Vuex.Store({
             playerPathName: 'tibet-oniz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/700400-1608987220.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/700400-1608987220.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -2959,7 +3312,8 @@ export default new Vuex.Store({
             playerPathName: 'stefano-napoleoni',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/43518-1589940852.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/43518-1589940852.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -2967,7 +3321,8 @@ export default new Vuex.Store({
             playerPathName: 'cherif-ndiaye',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/480705-1612911023.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/480705-1612911023.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 30,
@@ -2975,7 +3330,8 @@ export default new Vuex.Store({
             playerPathName: 'adis-jahovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/98536-1616096390.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/98536-1616096390.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 31,
@@ -2983,7 +3339,8 @@ export default new Vuex.Store({
             playerPathName: 'brown-ideye',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/64308-1488278287.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/64308-1488278287.jpg?lm=1',
+            twitterName: 'OfficialIdeye'
           }
         ]
       },
@@ -2998,7 +3355,8 @@ export default new Vuex.Store({
             playerPathName: 'abdulsamed-damlu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/341649-1612444900.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/341649-1612444900.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 2,
@@ -3006,7 +3364,8 @@ export default new Vuex.Store({
             playerPathName: 'ertac-ozbir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/159079-1612445479.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/159079-1612445479.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -3014,7 +3373,8 @@ export default new Vuex.Store({
             playerPathName: 'murat-aksit',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/621391-1612445563.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/621391-1612445563.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -3022,7 +3382,8 @@ export default new Vuex.Store({
             playerPathName: 'eray-iscan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/88371-1612445759.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/88371-1612445759.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -3030,7 +3391,8 @@ export default new Vuex.Store({
             playerPathName: 'wallace-dos-santos',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/225335-1612445094.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/225335-1612445094.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -3038,7 +3400,8 @@ export default new Vuex.Store({
             playerPathName: 'semih-kaya',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/60709-1612445531.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/60709-1612445531.jpeg?lm=1',
+            twitterName: 'semihkaya_26'
           },
           {
             playerId: 7,
@@ -3046,7 +3409,8 @@ export default new Vuex.Store({
             playerPathName: 'teenage-hadebe',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/429975-1612445206.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/429975-1612445206.jpeg?lm=1',
+            twitterName: 'hadebe_teenage'
           },
           {
             playerId: 8,
@@ -3054,7 +3418,8 @@ export default new Vuex.Store({
             playerPathName: 'philip-gameli-awuku',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/860256-1616019072.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/860256-1616019072.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -3062,7 +3427,8 @@ export default new Vuex.Store({
             playerPathName: 'eric-ndizeye',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/826377-1616019138.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/826377-1616019138.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -3070,7 +3436,8 @@ export default new Vuex.Store({
             playerPathName: 'karim-hafez',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/333004-1612445643.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/333004-1612445643.jpeg?lm=1',
+            twitterName: 'karimhafez23'
           },
           {
             playerId: 11,
@@ -3078,7 +3445,8 @@ export default new Vuex.Store({
             playerPathName: 'bulent-cevahir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/147518-1612445881.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/147518-1612445881.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -3086,7 +3454,8 @@ export default new Vuex.Store({
             playerPathName: 'erkan-kas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/165711-1612445612.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/165711-1612445612.jpeg?lm=1',
+            twitterName: 'erkan_kas'
           },
           {
             playerId: 13,
@@ -3094,7 +3463,8 @@ export default new Vuex.Store({
             playerPathName: 'issam-chebake',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/332049-1612445676.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/332049-1612445676.jpeg?lm=1',
+            twitterName: 'ChebakeIssam'
           },
           {
             playerId: 14,
@@ -3102,7 +3472,8 @@ export default new Vuex.Store({
             playerPathName: 'zeki-yavru',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/98131-1612445718.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/98131-1612445718.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -3110,7 +3481,8 @@ export default new Vuex.Store({
             playerPathName: 'jospin-nshimirimana',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/649266-1616019194.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/649266-1616019194.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -3118,7 +3490,8 @@ export default new Vuex.Store({
             playerPathName: 'afriyie-acquah',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/145581-1612444957.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/145581-1612444957.jpeg?lm=1',
+            twitterName: 'AcquahAfriyie20'
           },
           {
             playerId: 17,
@@ -3126,7 +3499,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmed-ildiz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/226169-1612445312.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/226169-1612445312.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -3134,7 +3508,8 @@ export default new Vuex.Store({
             playerPathName: 'fernando-zuqui',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/248763-1612444997.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/248763-1612444997.jpeg?lm=1',
+            twitterName: 'Fer_zuqui'
           },
           {
             playerId: 19,
@@ -3142,7 +3517,8 @@ export default new Vuex.Store({
             playerPathName: 'stevie-mallan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/331089-1616019240.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/331089-1616019240.jpeg?lm=1',
+            twitterName: 'MallanStephen'
           },
           {
             playerId: 20,
@@ -3150,7 +3526,8 @@ export default new Vuex.Store({
             playerPathName: 'adem-buyuk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/54148-1612445963.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/54148-1612445963.jpeg?lm=1',
+            twitterName: 'AdemByK21'
           },
           {
             playerId: 21,
@@ -3158,7 +3535,8 @@ export default new Vuex.Store({
             playerPathName: 'moryke-fofana',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/240497-1612445352.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/240497-1612445352.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -3166,7 +3544,8 @@ export default new Vuex.Store({
             playerPathName: 'mustafa-eskihellac',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/390379-1612445792.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/390379-1612445792.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -3174,7 +3553,8 @@ export default new Vuex.Store({
             playerPathName: 'haqi-osman',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/860255-1616019317.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/860255-1616019317.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -3182,7 +3562,8 @@ export default new Vuex.Store({
             playerPathName: 'aly-malle',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/398809-1616019359.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/398809-1616019359.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -3190,7 +3571,8 @@ export default new Vuex.Store({
             playerPathName: 'dogukan-emeksiz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/540067-1612445146.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/540067-1612445146.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
@@ -3198,7 +3580,8 @@ export default new Vuex.Store({
             playerPathName: 'olcay-sahan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/36200-1612445432.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/36200-1612445432.jpeg?lm=1',
+            twitterName: 'olcay_sahan10'
           },
           {
             playerId: 27,
@@ -3206,7 +3589,8 @@ export default new Vuex.Store({
             playerPathName: 'benjamin-tetteh',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/306382-1612445254.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/306382-1612445254.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -3214,7 +3598,8 @@ export default new Vuex.Store({
             playerPathName: 'kubilay-kanatsizkus',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/330876-1612445833.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/330876-1612445833.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -3222,7 +3607,8 @@ export default new Vuex.Store({
             playerPathName: 'jetmir-topalli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/600222-1612445930.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/600222-1612445930.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 30,
@@ -3230,7 +3616,8 @@ export default new Vuex.Store({
             playerPathName: 'umut-bulut',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/10143-1612445045.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/10143-1612445045.jpeg?lm=1',
+            twitterName: 'Bulut9Umut'
           }
         ]
       },
@@ -3245,7 +3632,8 @@ export default new Vuex.Store({
             playerPathName: 'dogan-alemdar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/576033-1616164162.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/576033-1616164162.png?lm=1',
+            twitterName: 'doganalemdar16'
           },
           {
             playerId: 2,
@@ -3253,7 +3641,8 @@ export default new Vuex.Store({
             playerPathName: 'silviu-lung-jr.',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/73731-1616166469.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/73731-1616166469.png?lm=1',
+            twitterName: 'lung_silviu'
           },
           {
             playerId: 3,
@@ -3261,7 +3650,8 @@ export default new Vuex.Store({
             playerPathName: 'ismail-cipe',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/282460-1616164761.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/282460-1616164761.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -3269,7 +3659,8 @@ export default new Vuex.Store({
             playerPathName: 'abdulkadir-tasdan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/812658-1601364649.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/812658-1601364649.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -3277,7 +3668,8 @@ export default new Vuex.Store({
             playerPathName: 'nehuen-paz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/284724-1616164801.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/284724-1616164801.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -3285,7 +3677,8 @@ export default new Vuex.Store({
             playerPathName: 'dimitrios-kolovetsios',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/112648-1616164886.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/112648-1616164886.png?lm=1',
+            twitterName: 'DKolovetsios'
           },
           {
             playerId: 7,
@@ -3293,7 +3686,8 @@ export default new Vuex.Store({
             playerPathName: 'ugur-demirok',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/44977-1538173073.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/44977-1538173073.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
@@ -3301,7 +3695,8 @@ export default new Vuex.Store({
             playerPathName: 'cristian-sapunaru',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/25942-1616165635.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/25942-1616165635.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -3309,7 +3704,8 @@ export default new Vuex.Store({
             playerPathName: 'aziz-behich',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/136834-1616166951.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/136834-1616166951.png?lm=1',
+            twitterName: 'AzizBehich'
           },
           {
             playerId: 10,
@@ -3317,7 +3713,8 @@ export default new Vuex.Store({
             playerPathName: 'yasir-subasi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/375719-1616165783.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/375719-1616165783.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -3325,7 +3722,8 @@ export default new Vuex.Store({
             playerPathName: 'ramazan-civelek',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/282560-1616165584.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/282560-1616165584.png?lm=1',
+            twitterName: 'RmznCvlk20'
           },
           {
             playerId: 12,
@@ -3333,7 +3731,8 @@ export default new Vuex.Store({
             playerPathName: 'zoran-kvrzic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/159839-1616165365.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/159839-1616165365.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -3341,7 +3740,8 @@ export default new Vuex.Store({
             playerPathName: 'miguel-lopes',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/59248-1616165277.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/59248-1616165277.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -3349,7 +3749,8 @@ export default new Vuex.Store({
             playerPathName: 'gustavo-campanharo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/103674-1616164476.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/103674-1616164476.png?lm=1',
+            twitterName: 'gcampanharo'
           },
           {
             playerId: 15,
@@ -3357,7 +3758,8 @@ export default new Vuex.Store({
             playerPathName: 'joseph-attamah',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/263546-1616164843.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/263546-1616164843.png?lm=1',
+            twitterName: 'AttamahJoseph'
           },
           {
             playerId: 16,
@@ -3365,7 +3767,8 @@ export default new Vuex.Store({
             playerPathName: 'karlo-muhar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/388042-1616167202.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/388042-1616167202.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -3373,7 +3776,8 @@ export default new Vuex.Store({
             playerPathName: 'besard-sabovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/322077-1616167159.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/322077-1616167159.png?lm=1',
+            twitterName: 'BSabovic'
           },
           {
             playerId: 18,
@@ -3381,7 +3785,8 @@ export default new Vuex.Store({
             playerPathName: 'emre-demir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/637669-1616164291.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/637669-1616164291.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -3389,7 +3794,8 @@ export default new Vuex.Store({
             playerPathName: 'daniel-avramovski',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/193289-1616164619.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/193289-1616164619.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -3397,7 +3803,8 @@ export default new Vuex.Store({
             playerPathName: 'pedro-henrique',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/213368-1616164369.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/213368-1616164369.png?lm=1',
+            twitterName: 'PHKONZEN'
           },
           {
             playerId: 21,
@@ -3405,7 +3812,8 @@ export default new Vuex.Store({
             playerPathName: 'nurettin-korkmaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/654374-1616164027.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/654374-1616164027.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -3413,7 +3821,8 @@ export default new Vuex.Store({
             playerPathName: 'aaron-lennon',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/14221-1616164563.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/14221-1616164563.png?lm=1',
+            twitterName: 'AaronLennon12'
           },
           {
             playerId: 23,
@@ -3421,7 +3830,8 @@ export default new Vuex.Store({
             playerPathName: 'melih-okutan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/292773-1616165704.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/292773-1616165704.png?lm=1',
+            twitterName: 'MelihOkutan7'
           },
           {
             playerId: 24,
@@ -3429,7 +3839,8 @@ export default new Vuex.Store({
             playerPathName: 'denis-alibec',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/81396-1616164515.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/81396-1616164515.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -3437,7 +3848,8 @@ export default new Vuex.Store({
             playerPathName: 'kevin-luckassen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/187290-1616167105.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/187290-1616167105.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
@@ -3445,7 +3857,8 @@ export default new Vuex.Store({
             playerPathName: 'anton-maglica',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/113192-1616167245.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/113192-1616167245.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -3453,7 +3866,8 @@ export default new Vuex.Store({
             playerPathName: 'ilhan-parlak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/37091-1600011597.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/37091-1600011597.jpeg?lm=1',
+            twitterName: 'ilhanParlak38'
           },
           {
             playerId: 28,
@@ -3461,7 +3875,8 @@ export default new Vuex.Store({
             playerPathName: 'mugdat-celik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/67570-1616165206.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/67570-1616165206.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -3469,7 +3884,8 @@ export default new Vuex.Store({
             playerPathName: 'omer-uzun',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/451880-1616165518.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/451880-1616165518.png?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -3484,7 +3900,8 @@ export default new Vuex.Store({
             playerPathName: 'ibrahim-sehic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/46252-1588243750.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/46252-1588243750.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 2,
@@ -3492,7 +3909,8 @@ export default new Vuex.Store({
             playerPathName: 'ozan-can-oruc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/361272-1572953011.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/361272-1572953011.png?lm=1',
+            twitterName: 'ozancanoruc'
           },
           {
             playerId: 3,
@@ -3500,7 +3918,8 @@ export default new Vuex.Store({
             playerPathName: 'eray-birnican',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/45212-1567776161.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/45212-1567776161.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -3508,7 +3927,8 @@ export default new Vuex.Store({
             playerPathName: 'erten-ersu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/203986-1611427450.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/203986-1611427450.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -3516,7 +3936,8 @@ export default new Vuex.Store({
             playerPathName: 'abdulkerim-bardakci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/199316-1472938866.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/199316-1472938866.jpg?lm=1',
+            twitterName: 'abdulkerimbard1'
           },
           {
             playerId: 6,
@@ -3524,7 +3945,8 @@ export default new Vuex.Store({
             playerPathName: 'adil-demirbag',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/354173-1540210488.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/354173-1540210488.jpg?lm=1',
+            twitterName: 'Ademirbag15'
           },
           {
             playerId: 7,
@@ -3532,7 +3954,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmet-calik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/182395-1572952223.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/182395-1572952223.jpg?lm=1',
+            twitterName: 'ahmetycalik5'
           },
           {
             playerId: 8,
@@ -3540,7 +3963,8 @@ export default new Vuex.Store({
             playerPathName: 'guilherme-sitya',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/217863-1579723288.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/217863-1579723288.png?lm=1',
+            twitterName: 'GuiSitya'
           },
           {
             playerId: 9,
@@ -3548,7 +3972,8 @@ export default new Vuex.Store({
             playerPathName: 'alper-uludag',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/55524-1572953279.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/55524-1572953279.png?lm=1',
+            twitterName: 'UludagAlper25'
           },
           {
             playerId: 10,
@@ -3556,7 +3981,8 @@ export default new Vuex.Store({
             playerPathName: 'nejc-skubic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/91434-1572953382.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/91434-1572953382.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -3564,7 +3990,8 @@ export default new Vuex.Store({
             playerPathName: 'baris-yardimci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/91948-1568850130.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/91948-1568850130.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -3572,7 +3999,8 @@ export default new Vuex.Store({
             playerPathName: 'amir-hadziahmetovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/293213-1572953578.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/293213-1572953578.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -3580,7 +4008,8 @@ export default new Vuex.Store({
             playerPathName: 'marko-jevtovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/256000-1572953548.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/256000-1572953548.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -3588,7 +4017,8 @@ export default new Vuex.Store({
             playerPathName: 'oguz-kagan-guctekin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/352718-1566831648.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/352718-1566831648.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -3596,7 +4026,8 @@ export default new Vuex.Store({
             playerPathName: 'ismael-diomande',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/170495-1566832578.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/170495-1566832578.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -3604,7 +4035,8 @@ export default new Vuex.Store({
             playerPathName: 'volkan-findikli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/126417-1572953608.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/126417-1572953608.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -3612,7 +4044,8 @@ export default new Vuex.Store({
             playerPathName: 'izzet-karaboga',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/662144-1604240021.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/662144-1604240021.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -3620,7 +4053,8 @@ export default new Vuex.Store({
             playerPathName: 'musa-cagiran',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/90959-1567776775.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/90959-1567776775.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -3628,7 +4062,8 @@ export default new Vuex.Store({
             playerPathName: 'ismail-guven',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/209240-1537031085.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/209240-1537031085.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -3636,7 +4071,8 @@ export default new Vuex.Store({
             playerPathName: 'farouk-miya',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/339005-1572953766.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/339005-1572953766.png?lm=1',
+            twitterName: 'FaroukMiya'
           },
           {
             playerId: 21,
@@ -3644,7 +4080,8 @@ export default new Vuex.Store({
             playerPathName: 'deni-milosevic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/168163-1572953697.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/168163-1572953697.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -3652,7 +4089,8 @@ export default new Vuex.Store({
             playerPathName: 'amar-rahmanovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/166086-1570562969.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/166086-1570562969.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -3660,7 +4098,8 @@ export default new Vuex.Store({
             playerPathName: 'emre-pehlivan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/814750-1604239906.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/814750-1604239906.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -3668,7 +4107,8 @@ export default new Vuex.Store({
             playerPathName: 'zymer-bytyqi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/213555-1610216234.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/213555-1610216234.jpeg?lm=1',
+            twitterName: 'ZymerB'
           },
           {
             playerId: 25,
@@ -3676,7 +4116,8 @@ export default new Vuex.Store({
             playerPathName: 'dogan-golpek',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/524195-1577131079.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/524195-1577131079.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
@@ -3684,7 +4125,8 @@ export default new Vuex.Store({
             playerPathName: 'levan-shengelia',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/329630-1572956985.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/329630-1572956985.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -3692,7 +4134,8 @@ export default new Vuex.Store({
             playerPathName: 'samuel-eduok',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/274802-1611427351.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/274802-1611427351.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -3700,7 +4143,8 @@ export default new Vuex.Store({
             playerPathName: 'jesse-sekidika',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/437392-1553627726.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/437392-1553627726.png?lm=1',
+            twitterName: 'JesseSekidika'
           },
           {
             playerId: 29,
@@ -3708,7 +4152,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmet-karademir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/727085-1611427270.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/727085-1611427270.jpeg?lm=1',
+            twitterName: 'Ahmetkrdmr_11'
           },
           {
             playerId: 30,
@@ -3716,7 +4161,8 @@ export default new Vuex.Store({
             playerPathName: 'erdon-daci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/410285-1572957128.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/410285-1572957128.png?lm=1',
+            twitterName: 'Erdon_daci88'
           },
           {
             playerId: 31,
@@ -3724,7 +4170,8 @@ export default new Vuex.Store({
             playerPathName: 'sokol-cikalleshi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/99047-1533893373.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/99047-1533893373.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 32,
@@ -3732,7 +4179,8 @@ export default new Vuex.Store({
             playerPathName: 'artem-kravets',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/58405-1605127819.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/58405-1605127819.jpeg?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -3747,7 +4195,8 @@ export default new Vuex.Store({
             playerPathName: 'ramazan-kose',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/73627-1614809833.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/73627-1614809833.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 2,
@@ -3755,7 +4204,8 @@ export default new Vuex.Store({
             playerPathName: 'ertugrul-taskiran',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/91945-1614809902.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/91945-1614809902.jpeg?lm=1',
+            twitterName: 'ErtugrulTSKRN'
           },
           {
             playerId: 3,
@@ -3763,7 +4213,8 @@ export default new Vuex.Store({
             playerPathName: 'erdem-canpolat',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/521956-1614809968.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/521956-1614809968.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -3771,7 +4222,8 @@ export default new Vuex.Store({
             playerPathName: 'derrick-luckassen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/241457-1614810300.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/241457-1614810300.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -3779,7 +4231,8 @@ export default new Vuex.Store({
             playerPathName: 'julian-jeanvier',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/134277-1614810342.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/134277-1614810342.jpeg?lm=1',
+            twitterName: 'Ju_dpom'
           },
           {
             playerId: 6,
@@ -3787,7 +4240,8 @@ export default new Vuex.Store({
             playerPathName: 'tomas-brecka',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/265879-1614810439.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/265879-1614810439.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -3795,7 +4249,8 @@ export default new Vuex.Store({
             playerPathName: 'dusko-tosic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/17184-1614810495.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/17184-1614810495.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
@@ -3803,7 +4258,8 @@ export default new Vuex.Store({
             playerPathName: 'oussama-haddadi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/191407-1614810140.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/191407-1614810140.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -3811,7 +4267,8 @@ export default new Vuex.Store({
             playerPathName: 'eren-elmali',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/616894-1614810200.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/616894-1614810200.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -3819,7 +4276,8 @@ export default new Vuex.Store({
             playerPathName: 'cagtay-kurukalip',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/616886-1614810247.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/616886-1614810247.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -3827,7 +4285,8 @@ export default new Vuex.Store({
             playerPathName: 'berk-cetin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/382759-1579960208.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/382759-1579960208.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -3835,7 +4294,8 @@ export default new Vuex.Store({
             playerPathName: 'florent-hadergjonaj',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/238809-1614810027.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/238809-1614810027.jpeg?lm=1',
+            twitterName: 'FloHadergjonaj'
           },
           {
             playerId: 13,
@@ -3843,7 +4303,8 @@ export default new Vuex.Store({
             playerPathName: 'feyzi-yildirim',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/338422-1614810087.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/338422-1614810087.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -3851,7 +4312,8 @@ export default new Vuex.Store({
             playerPathName: 'loret-sadiku',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/116611-1614810639.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/116611-1614810639.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -3859,7 +4321,8 @@ export default new Vuex.Store({
             playerPathName: 'danny-drinkwater',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/73491-1614810875.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/73491-1614810875.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -3867,7 +4330,8 @@ export default new Vuex.Store({
             playerPathName: 'kristijan-bistrovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/375857-1614810938.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/375857-1614810938.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -3875,7 +4339,8 @@ export default new Vuex.Store({
             playerPathName: 'aytac-kara',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/159908-1614810788.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/159908-1614810788.jpeg?lm=1',
+            twitterName: 'aytayt35'
           },
           {
             playerId: 18,
@@ -3883,7 +4348,8 @@ export default new Vuex.Store({
             playerPathName: 'tarkan-serbest',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/158118-1614811764.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/158118-1614811764.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -3891,7 +4357,8 @@ export default new Vuex.Store({
             playerPathName: 'dogucan-haspolat',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/387143-1614810699.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/387143-1614810699.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -3899,7 +4366,8 @@ export default new Vuex.Store({
             playerPathName: 'hasan-emre-yesilyurt',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/622830-1612611546.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/622830-1612611546.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -3907,7 +4375,8 @@ export default new Vuex.Store({
             playerPathName: 'haris-hajradinovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/215592-1614811001.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/215592-1614811001.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -3915,7 +4384,8 @@ export default new Vuex.Store({
             playerPathName: 'kevin-varga',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/385906-1614811933.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/385906-1614811933.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -3923,7 +4393,8 @@ export default new Vuex.Store({
             playerPathName: 'yusuf-erdogan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/191391-1614811840.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/191391-1614811840.jpeg?lm=1',
+            twitterName: 'Ysf032'
           },
           {
             playerId: 24,
@@ -3931,7 +4402,8 @@ export default new Vuex.Store({
             playerPathName: 'anil-koc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/168161-1614812069.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/168161-1614812069.jpeg?lm=1',
+            twitterName: 'kocianil'
           },
           {
             playerId: 25,
@@ -3939,7 +4411,8 @@ export default new Vuex.Store({
             playerPathName: 'yasin-dulger',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/296919-1614809738.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/296919-1614809738.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 26,
@@ -3947,7 +4420,8 @@ export default new Vuex.Store({
             playerPathName: 'gilbert-koomson',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/282473-1614811998.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/282473-1614811998.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -3955,7 +4429,8 @@ export default new Vuex.Store({
             playerPathName: 'isaac-kiese-thelin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/201311-1614812207.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/201311-1614812207.jpeg?lm=1',
+            twitterName: 'IKieseThelin'
           },
           {
             playerId: 28,
@@ -3963,7 +4438,8 @@ export default new Vuex.Store({
             playerPathName: 'armin-hodzic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/166753-1614812144.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/166753-1614812144.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -3971,7 +4447,8 @@ export default new Vuex.Store({
             playerPathName: 'bengali-fode-koita',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/79110-1614812274.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/79110-1614812274.jpeg?lm=1',
+            twitterName: 'bangalikoita'
           },
           {
             playerId: 30,
@@ -3979,7 +4456,8 @@ export default new Vuex.Store({
             playerPathName: 'furkan-kulekci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/622831-1612611481.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/622831-1612611481.jpeg?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -3994,7 +4472,8 @@ export default new Vuex.Store({
             playerPathName: 'mert-gunok',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/51894-1553536933.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/51894-1553536933.jpeg?lm=1',
+            twitterName: 'MertGunok'
           },
           {
             playerId: 2,
@@ -4002,7 +4481,8 @@ export default new Vuex.Store({
             playerPathName: 'volkan-babacan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/52261-1583152431.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/52261-1583152431.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 3,
@@ -4010,7 +4490,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmet-kivanc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/340880-1539716503.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/340880-1539716503.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -4018,7 +4499,8 @@ export default new Vuex.Store({
             playerPathName: 'ravil-tagir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/655893-1572443563.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/655893-1572443563.jpg?lm=1',
+            twitterName: 'raviltagir4'
           },
           {
             playerId: 5,
@@ -4026,7 +4508,8 @@ export default new Vuex.Store({
             playerPathName: 'leo-duarte',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/312678-1610387414.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/312678-1610387414.jpeg?lm=1',
+            twitterName: 'leoduarte_43'
           },
           {
             playerId: 6,
@@ -4034,7 +4517,8 @@ export default new Vuex.Store({
             playerPathName: 'carlos-ponck',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/341516-1548259625.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/341516-1548259625.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -4042,15 +4526,17 @@ export default new Vuex.Store({
             playerPathName: 'alexandru-epureanu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/45340-1490177787.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/45340-1490177787.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
-            name: 'BolI BolIngolI',
-            playerPathName: 'boli-bolingoli',
+            name: 'BolI BolIngolI-Mbombo',
+            playerPathName: 'boli-bolingoli-mbombo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/168156-1535660174.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/168156-1535660174.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -4058,7 +4544,8 @@ export default new Vuex.Store({
             playerPathName: 'hasan-ali-kaldirim',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/55605-1567076315.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/55605-1567076315.JPG?lm=1',
+            twitterName: 'HAK3'
           },
           {
             playerId: 10,
@@ -4066,15 +4553,17 @@ export default new Vuex.Store({
             playerPathName: 'cemali-sertel',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/573981-1542327638.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/573981-1542327638.png?lm=1',
+            twitterName: 'CemaliSertel'
           },
           {
             playerId: 11,
-            name: 'Rafael PereIra',
-            playerPathName: 'rafael-pereira',
+            name: 'Rafael da SIlva',
+            playerPathName: 'rafael-da-silva',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/61892-1563889964.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/61892-1563889964.jpg?lm=1',
+            twitterName: 'orafa2'
           },
           {
             playerId: 12,
@@ -4082,7 +4571,8 @@ export default new Vuex.Store({
             playerPathName: 'junior-caicara',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/112062-1613303649.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/112062-1613303649.png?lm=1',
+            twitterName: 'jrcaicara'
           },
           {
             playerId: 13,
@@ -4090,7 +4580,8 @@ export default new Vuex.Store({
             playerPathName: 'muhammed-sarikaya',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/572132-1607542299.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/572132-1607542299.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -4098,7 +4589,8 @@ export default new Vuex.Store({
             playerPathName: 'ugur-ucar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/21370-1583153038.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/21370-1583153038.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -4106,7 +4598,8 @@ export default new Vuex.Store({
             playerPathName: 'youssouf-ndayishimiye',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/674612-1582463286.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/674612-1582463286.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -4114,7 +4607,8 @@ export default new Vuex.Store({
             playerPathName: 'mahmut-tekdemir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/54177-1583153546.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/54177-1583153546.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -4122,7 +4616,8 @@ export default new Vuex.Store({
             playerPathName: 'mehmet-topal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/44402-1583153621.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/44402-1583153621.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -4130,7 +4625,8 @@ export default new Vuex.Store({
             playerPathName: 'berkay-ozcan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/249952-1532078152.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/249952-1532078152.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 19,
@@ -4138,7 +4634,8 @@ export default new Vuex.Store({
             playerPathName: 'okechukwu-azubuike',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/386126-1583153941.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/386126-1583153941.jpg?lm=1',
+            twitterName: 'aazzuu14'
           },
           {
             playerId: 20,
@@ -4146,7 +4643,8 @@ export default new Vuex.Store({
             playerPathName: 'tolga-cigerci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/94199-1567081436.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/94199-1567081436.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -4154,7 +4652,8 @@ export default new Vuex.Store({
             playerPathName: 'deniz-turuc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/216662-1567081152.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/216662-1567081152.JPG?lm=1',
+            twitterName: 'DenizTuruc10'
           },
           {
             playerId: 22,
@@ -4162,7 +4661,8 @@ export default new Vuex.Store({
             playerPathName: 'giuliano-de-paula',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/54375-1534761193.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/54375-1534761193.jpg?lm=1',
+            twitterName: 'giulianovp'
           },
           {
             playerId: 23,
@@ -4170,7 +4670,8 @@ export default new Vuex.Store({
             playerPathName: 'danijel-aleksic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/48119-1448893673.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/48119-1448893673.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -4178,7 +4679,8 @@ export default new Vuex.Store({
             playerPathName: 'emir-senocak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/702424-1613484898.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/702424-1613484898.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -4186,7 +4688,8 @@ export default new Vuex.Store({
             playerPathName: 'nacer-chadli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/59631-1469628026.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/59631-1469628026.jpg?lm=1',
+            twitterName: 'NChadli'
           },
           {
             playerId: 26,
@@ -4194,7 +4697,8 @@ export default new Vuex.Store({
             playerPathName: 'junior-fernandes',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/89708-1567777021.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/89708-1567777021.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -4202,7 +4706,8 @@ export default new Vuex.Store({
             playerPathName: 'mete-kaan-demir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/282615-1588252483.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/282615-1588252483.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -4210,7 +4715,8 @@ export default new Vuex.Store({
             playerPathName: 'edin-visca',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/109217-1583154047.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/109217-1583154047.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -4218,7 +4724,8 @@ export default new Vuex.Store({
             playerPathName: 'omer-ali-sahiner',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/110695-1611592480.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/110695-1611592480.jpeg?lm=1',
+            twitterName: 'Omralishnr'
           },
           {
             playerId: 30,
@@ -4226,7 +4733,8 @@ export default new Vuex.Store({
             playerPathName: 'fredrik-gulbrandsen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/110708-1535447509.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/110708-1535447509.jpg?lm=1',
+            twitterName: 'gulbrandsen92'
           },
           {
             playerId: 31,
@@ -4234,7 +4742,8 @@ export default new Vuex.Store({
             playerPathName: 'enzo-crivelli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/291110-1444910191.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/291110-1444910191.jpg?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -4249,7 +4758,8 @@ export default new Vuex.Store({
             playerPathName: 'ricardo-friedrich',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/372201-1600009329.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/372201-1600009329.jpeg?lm=1',
+            twitterName: 'rfriedrich93'
           },
           {
             playerId: 2,
@@ -4257,7 +4767,8 @@ export default new Vuex.Store({
             playerPathName: 'korcan-celikay',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/50483-1600009285.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/50483-1600009285.jpeg?lm=1',
+            twitterName: 'CelikayKorcan'
           },
           {
             playerId: 3,
@@ -4265,7 +4776,8 @@ export default new Vuex.Store({
             playerPathName: 'mert-topuz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/635993-1600009203.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/635993-1600009203.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -4273,7 +4785,8 @@ export default new Vuex.Store({
             playerPathName: 'furkan-beklevic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/460218-1600009026.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/460218-1600009026.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -4281,7 +4794,8 @@ export default new Vuex.Store({
             playerPathName: 'zvonimir-sarlija',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/375856-1600009397.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/375856-1600009397.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -4289,7 +4803,8 @@ export default new Vuex.Store({
             playerPathName: 'erdi-dikmen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/251078-1600010025.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/251078-1600010025.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -4297,7 +4812,8 @@ export default new Vuex.Store({
             playerPathName: 'michal-pazdan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/54512-1600009821.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/54512-1600009821.jpeg?lm=1',
+            twitterName: 'Pazdekk'
           },
           {
             playerId: 8,
@@ -4305,7 +4821,8 @@ export default new Vuex.Store({
             playerPathName: 'alperen-babacan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/341102-1612612390.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/341102-1612612390.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -4313,7 +4830,8 @@ export default new Vuex.Store({
             playerPathName: 'ante-kulusic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/46056-1600010109.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/46056-1600010109.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -4321,7 +4839,8 @@ export default new Vuex.Store({
             playerPathName: 'abdullah-celik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/321551-1613865178.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/321551-1613865178.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -4329,7 +4848,8 @@ export default new Vuex.Store({
             playerPathName: 'yusuf-eren-goktas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/796047-1612611832.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/796047-1612611832.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -4337,7 +4857,8 @@ export default new Vuex.Store({
             playerPathName: 'atila-turan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/111063-1600010285.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/111063-1600010285.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -4345,7 +4866,8 @@ export default new Vuex.Store({
             playerPathName: 'tiago-pinto',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/63293-1600010181.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/63293-1600010181.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -4353,7 +4875,8 @@ export default new Vuex.Store({
             playerPathName: 'anil-dikmen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/700266-1612612284.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/700266-1612612284.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -4361,7 +4884,8 @@ export default new Vuex.Store({
             playerPathName: 'stelios-kitsiou',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/189151-1600010693.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/189151-1600010693.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 16,
@@ -4369,7 +4893,8 @@ export default new Vuex.Store({
             playerPathName: 'idriz-voca',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/342098-1570969535.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/342098-1570969535.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -4377,7 +4902,8 @@ export default new Vuex.Store({
             playerPathName: 'atakan-cankaya',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/315208-1600902151.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/315208-1600902151.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -4385,7 +4911,8 @@ export default new Vuex.Store({
             playerPathName: 'assane-diousse',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/287635-1600902023.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/287635-1600902023.png?lm=1',
+            twitterName: 'AssaneDiousse'
           },
           {
             playerId: 19,
@@ -4393,7 +4920,8 @@ export default new Vuex.Store({
             playerPathName: 'daniel-lukasik',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/67655-1600010965.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/67655-1600010965.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -4401,7 +4929,8 @@ export default new Vuex.Store({
             playerPathName: 'ali-kaan-guneren',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/483495-1612612013.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/483495-1612612013.jpeg?lm=1',
+            twitterName: 'GunerenKaan'
           },
           {
             playerId: 21,
@@ -4409,7 +4938,8 @@ export default new Vuex.Store({
             playerPathName: 'ibrahim-akdag',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/182079-1612612169.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/182079-1612612169.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -4417,7 +4947,8 @@ export default new Vuex.Store({
             playerPathName: 'sahverdi-cetin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/342100-1600902274.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/342100-1600902274.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 23,
@@ -4425,15 +4956,17 @@ export default new Vuex.Store({
             playerPathName: 'ender-aygoren',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/576990-1600008656.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/576990-1600008656.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
-            name: 'EndrI ÇekIçI',
+            name: 'EndrI Çekiçi',
             playerPathName: 'endri-cekici',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/204049-1602888437.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/204049-1602888437.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -4441,7 +4974,8 @@ export default new Vuex.Store({
             playerPathName: 'alper-potuk',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/99186-1600901868.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/99186-1600901868.png?lm=1',
+            twitterName: 'AlperPOTUK'
           },
           {
             playerId: 26,
@@ -4449,7 +4983,8 @@ export default new Vuex.Store({
             playerPathName: 'berke-gurbuz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/655907-1582126554.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/655907-1582126554.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -4457,7 +4992,8 @@ export default new Vuex.Store({
             playerPathName: 'joseph-paintsil',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/534435-1600011349.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/534435-1600011349.jpeg?lm=1',
+            twitterName: 'josephpaintsil_'
           },
           {
             playerId: 28,
@@ -4465,7 +5001,8 @@ export default new Vuex.Store({
             playerPathName: 'saba-lobjanidze',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/251029-1600011413.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/251029-1600011413.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -4473,7 +5010,8 @@ export default new Vuex.Store({
             playerPathName: 'geraldo-bartolomeu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/127169-1612611923.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/127169-1612611923.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 30,
@@ -4481,7 +5019,8 @@ export default new Vuex.Store({
             playerPathName: 'orkan-cinar',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/233113-1600011541.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/233113-1600011541.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 31,
@@ -4489,7 +5028,8 @@ export default new Vuex.Store({
             playerPathName: 'torgeir-borven',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/129236-1602888293.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/129236-1602888293.jpeg?lm=1',
+            twitterName: 'TBorven'
           },
           {
             playerId: 32,
@@ -4497,7 +5037,8 @@ export default new Vuex.Store({
             playerPathName: 'aliou-badji',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/479589-1570884620.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/479589-1570884620.jpg?lm=1',
+            twitterName: 'AliouBadji97'
           },
           {
             playerId: 33,
@@ -4505,7 +5046,8 @@ export default new Vuex.Store({
             playerPathName: 'emre-gural',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/60004-1612612047.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/60004-1612612047.jpeg?lm=1',
+            twitterName: 'emregueral'
           },
           {
             playerId: 34,
@@ -4513,7 +5055,8 @@ export default new Vuex.Store({
             playerPathName: 'embiya-ayyildiz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/543197-1612611700.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/543197-1612611700.jpeg?lm=1',
+            twitterName: 'Embiya___'
           }
         ]
       },
@@ -4528,7 +5071,8 @@ export default new Vuex.Store({
             playerPathName: 'ugurcan-cakir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/292199-1614175907.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/292199-1614175907.png?lm=1',
+            twitterName: 'cakirugurcan96'
           },
           {
             playerId: 2,
@@ -4536,7 +5080,8 @@ export default new Vuex.Store({
             playerPathName: 'erce-kardesler',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/291548-1614453559.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/291548-1614453559.png?lm=1',
+            twitterName: 'ercekardeslerr'
           },
           {
             playerId: 3,
@@ -4544,7 +5089,8 @@ export default new Vuex.Store({
             playerPathName: 'arda-akbulut',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/347383-1614453489.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/347383-1614453489.png?lm=1',
+            twitterName: 'ardaakbulut01'
           },
           {
             playerId: 4,
@@ -4552,7 +5098,8 @@ export default new Vuex.Store({
             playerPathName: 'Vitor Hugo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/149752-1602167503.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/149752-1602167503.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -4560,7 +5107,8 @@ export default new Vuex.Store({
             playerPathName: 'edgar-ie',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/191987-1614452432.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/191987-1614452432.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -4568,7 +5116,8 @@ export default new Vuex.Store({
             playerPathName: 'huseyin-turkmen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/395862-1614453431.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/395862-1614453431.png?lm=1',
+            twitterName: 'turkmenhuseyin4'
           },
           {
             playerId: 7,
@@ -4576,7 +5125,8 @@ export default new Vuex.Store({
             playerPathName: 'majid-hosseini',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/294767-1602167405.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/294767-1602167405.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
@@ -4584,7 +5134,8 @@ export default new Vuex.Store({
             playerPathName: 'atakan-gunduz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/477927-1614453228.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/477927-1614453228.png?lm=1',
+            twitterName: '_atakangunduz4'
           },
           {
             playerId: 9,
@@ -4592,7 +5143,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmetcan-kaplan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/662131-1599757359.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/662131-1599757359.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -4600,7 +5152,8 @@ export default new Vuex.Store({
             playerPathName: 'marlon-xavier',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/406675-1602167343.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/406675-1602167343.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -4608,7 +5161,8 @@ export default new Vuex.Store({
             playerPathName: 'faruk-can-genc',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/588171-1613564172.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/588171-1613564172.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 12,
@@ -4616,7 +5170,8 @@ export default new Vuex.Store({
             playerPathName: 'serkan-asan',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/491966-1614452363.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/491966-1614452363.png?lm=1',
+            twitterName: 'serkanasan99'
           },
           {
             playerId: 13,
@@ -4624,7 +5179,8 @@ export default new Vuex.Store({
             playerPathName: 'kamil-ahmet-corekci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/110686-1614453171.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/110686-1614453171.png?lm=1',
+            twitterName: 'k_a_c92'
           },
           {
             playerId: 14,
@@ -4632,7 +5188,8 @@ export default new Vuex.Store({
             playerPathName: 'berat-ozdemir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/483063-1610723089.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/483063-1610723089.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -4640,7 +5197,8 @@ export default new Vuex.Store({
             playerPathName: 'hakan-yesil',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/433325-1613564226.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/433325-1613564226.png?lm=1',
+            twitterName: 'hakny14'
           },
           {
             playerId: 16,
@@ -4648,7 +5206,8 @@ export default new Vuex.Store({
             playerPathName: 'abdulkadir-parmak',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/276337-1614452935.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/276337-1614452935.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -4656,7 +5215,8 @@ export default new Vuex.Store({
             playerPathName: 'lewis-baker',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/198589-1602167259.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/198589-1602167259.png?lm=1',
+            twitterName: 'lew_baker'
           },
           {
             playerId: 18,
@@ -4664,7 +5224,8 @@ export default new Vuex.Store({
             playerPathName: 'flavio-da-silva',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/373191-1614452627.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/373191-1614452627.png?lm=1',
+            twitterName: 'medeiros0524'
           },
           {
             playerId: 19,
@@ -4672,7 +5233,8 @@ export default new Vuex.Store({
             playerPathName: 'anders-trondsen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/228042-1602166871.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/228042-1602166871.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -4680,7 +5242,8 @@ export default new Vuex.Store({
             playerPathName: 'abdulkadir-omur',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/271495-1611852410.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/271495-1611852410.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -4688,7 +5251,8 @@ export default new Vuex.Store({
             playerPathName: 'anastasios-bakasetas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/162571-1612364132.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/162571-1612364132.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 22,
@@ -4696,7 +5260,8 @@ export default new Vuex.Store({
             playerPathName: 'yunus-malli',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/85352-1612364183.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/85352-1612364183.png?lm=1',
+            twitterName: 'yunusmalli10'
           },
           {
             playerId: 23,
@@ -4704,7 +5269,8 @@ export default new Vuex.Store({
             playerPathName: 'süleyman-cebeci',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/662145-1613564313.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/662145-1613564313.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 24,
@@ -4712,7 +5278,8 @@ export default new Vuex.Store({
             playerPathName: 'anthony-nwakaeme',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/175988-1614176107.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/175988-1614176107.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -4720,7 +5287,8 @@ export default new Vuex.Store({
             playerPathName: 'safa-kinali',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/592360-1614453099.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/592360-1614453099.png?lm=1',
+            twitterName: 'safakinali10'
           },
           {
             playerId: 26,
@@ -4728,7 +5296,8 @@ export default new Vuex.Store({
             playerPathName: 'caleb-ekuban',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/199953-1614452232.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/199953-1614452232.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 27,
@@ -4736,7 +5305,8 @@ export default new Vuex.Store({
             playerPathName: 'yusuf-sari',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/517376-1614452856.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/517376-1614452856.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 28,
@@ -4744,7 +5314,8 @@ export default new Vuex.Store({
             playerPathName: 'djaniny-semedo',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/197170-1602166992.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/197170-1602166992.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 29,
@@ -4752,7 +5323,8 @@ export default new Vuex.Store({
             playerPathName: 'benik-afobe',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/110858-1614452566.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/110858-1614452566.png?lm=1',
+            twitterName: ''
           }
         ]
       },
@@ -4767,7 +5339,8 @@ export default new Vuex.Store({
             playerPathName: 'cenk-gonen',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/45214-1579960871.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/45214-1579960871.png?lm=1',
+            twitterName: 'GonenCenk'
           },
           {
             playerId: 2,
@@ -4775,7 +5348,8 @@ export default new Vuex.Store({
             playerPathName: 'huseyin-altintas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/293956-1572964217.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/293956-1572964217.JPG?lm=1',
+            twitterName: 'hhuusso'
           },
           {
             playerId: 3,
@@ -4783,7 +5357,8 @@ export default new Vuex.Store({
             playerPathName: 'abdulkadir-sunger',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/796259-1601313412.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/796259-1601313412.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 4,
@@ -4791,7 +5366,8 @@ export default new Vuex.Store({
             playerPathName: 'fabiano-leismann',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/271335-1605700461.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/271335-1605700461.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 5,
@@ -4799,7 +5375,8 @@ export default new Vuex.Store({
             playerPathName: 'oguz-yilmaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/199958-1572964570.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/199958-1572964570.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 6,
@@ -4807,7 +5384,8 @@ export default new Vuex.Store({
             playerPathName: 'mustafa-yumlu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/76176-1572964531.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/76176-1572964531.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 7,
@@ -4815,7 +5393,8 @@ export default new Vuex.Store({
             playerPathName: 'muhammet-ozkal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/339432-1606576371.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/339432-1606576371.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 8,
@@ -4823,7 +5402,8 @@ export default new Vuex.Store({
             playerPathName: 'gorkem-can',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/361514-1526502664.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/361514-1526502664.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 9,
@@ -4831,7 +5411,8 @@ export default new Vuex.Store({
             playerPathName: 'ayman-ben-mohamed',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/249446-1615163202.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/249446-1615163202.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 10,
@@ -4839,7 +5420,8 @@ export default new Vuex.Store({
             playerPathName: 'sakib-aytac',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/114491-1606578041.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/114491-1606578041.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 11,
@@ -4847,7 +5429,8 @@ export default new Vuex.Store({
             playerPathName: 'ozgur-cek',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/52262-1568130779.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/52262-1568130779.jpg?lm=1',
+            twitterName: 'ozgurcek60'
           },
           {
             playerId: 12,
@@ -4855,7 +5438,8 @@ export default new Vuex.Store({
             playerPathName: 'ozer-ozdemir',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/289898-1603905922.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/289898-1603905922.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 13,
@@ -4863,7 +5447,8 @@ export default new Vuex.Store({
             playerPathName: 'kubilay-aktas',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/274466-1601146574.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/274466-1601146574.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 14,
@@ -4871,7 +5456,8 @@ export default new Vuex.Store({
             playerPathName: 'radoslaw-murawski',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/220969-1572967021.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/220969-1572967021.JPG?lm=1',
+            twitterName: ''
           },
           {
             playerId: 15,
@@ -4879,7 +5465,8 @@ export default new Vuex.Store({
             playerPathName: 'mix-diskerud',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/103559-1611153583.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/103559-1611153583.jpeg?lm=1',
+            twitterName: 'MixDiskerud'
           },
           {
             playerId: 16,
@@ -4887,7 +5474,8 @@ export default new Vuex.Store({
             playerPathName: 'marvin-bakalorz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/53602-1532071787.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/53602-1532071787.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 17,
@@ -4895,7 +5483,8 @@ export default new Vuex.Store({
             playerPathName: 'eren-kiryolcu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/811332-1603168399.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/811332-1603168399.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 18,
@@ -4903,7 +5492,8 @@ export default new Vuex.Store({
             playerPathName: 'recep-niyaz',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/105653-1572967059.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/105653-1572967059.JPG?lm=1',
+            twitterName: 'receppniyazz17'
           },
           {
             playerId: 19,
@@ -4911,7 +5501,8 @@ export default new Vuex.Store({
             playerPathName: 'angelo-sagal',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/190941-1601313067.png?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/190941-1601313067.png?lm=1',
+            twitterName: ''
           },
           {
             playerId: 20,
@@ -4919,7 +5510,8 @@ export default new Vuex.Store({
             playerPathName: 'hasan-ayaroglu',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/222608-1600339888.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/222608-1600339888.jpeg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 21,
@@ -4927,7 +5519,8 @@ export default new Vuex.Store({
             playerPathName: 'hadi-sacko',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/198728-1616286994.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/198728-1616286994.jpeg?lm=1',
+            twitterName: 'miimosaa'
           },
           {
             playerId: 22,
@@ -4935,7 +5528,8 @@ export default new Vuex.Store({
             playerPathName: 'ahmed-yasin',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/114791-1502880754.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/114791-1502880754.jpg?lm=1',
+            twitterName: 'AY9Official'
           },
           {
             playerId: 23,
@@ -4943,7 +5537,8 @@ export default new Vuex.Store({
             playerPathName: 'mathieu-dossevi',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/77828-1595966700.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/77828-1595966700.jpg?lm=1',
+            twitterName: 'MDossevi'
           },
           {
             playerId: 24,
@@ -4951,7 +5546,8 @@ export default new Vuex.Store({
             playerPathName: 'muris-mesanovic',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/70176-1493906471.jpg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/70176-1493906471.jpg?lm=1',
+            twitterName: ''
           },
           {
             playerId: 25,
@@ -4959,7 +5555,8 @@ export default new Vuex.Store({
             playerPathName: 'hugo-rodallega',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/37934-1572967382.JPG?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/37934-1572967382.JPG?lm=1',
+            twitterName: 'hugol1120'
           },
           {
             playerId: 26,
@@ -4967,7 +5564,8 @@ export default new Vuex.Store({
             playerPathName: 'ali-yavuz-kol',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/477938-1607185946.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/477938-1607185946.jpeg?lm=1',
+            twitterName: 'aliyavuzKOL9'
           },
           {
             playerId: 27,
@@ -4975,7 +5573,8 @@ export default new Vuex.Store({
             playerPathName: 'veton-tusha',
             isSocial: true,
             profilePhoto:
-              'https://img.a.transfermarkt.technology/portrait/header/636752-1616286935.jpeg?lm=1'
+              'https://img.a.transfermarkt.technology/portrait/header/636752-1616286935.jpeg?lm=1',
+            twitterName: ''
           }
         ]
       }
