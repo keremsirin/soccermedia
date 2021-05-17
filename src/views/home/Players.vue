@@ -50,13 +50,6 @@ export default {
   created() {
     document.getElementById('scroll').scrollIntoView()
     this.$store.state.twitterName = null
-    axios.get(
-      'https://soccer-media.herokuapp.com/api/twittername/' +
-        this.$store.state.twitterName
-      // window.location.origin +
-      //   '/api/twittername/' +
-      //   this.$store.state.twitterName
-    )
   },
   computed: {
     ...mapState(['teams']),
@@ -76,6 +69,9 @@ export default {
       axios.get(
         'https://soccer-media.herokuapp.com/api/twittername/' +
           this.$store.state.twitterName
+
+        // 'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
+
         // window.location.origin +
         //   '/api/twittername/' +
         //   this.$store.state.twitterName
