@@ -205,10 +205,25 @@ export default {
       trLocale: trLocale
     }
   },
+  beforeCreate() {
+    axios.get(
+      'https://soccer-media.herokuapp.com/api/twittername/' +
+        this.$store.state.twitterName
+
+      // 'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
+
+      // window.location.origin +
+      //   '/api/twittername/' +
+      //   this.$store.state.twitterName
+    )
+  },
   created() {
     axios.get(
       'https://soccer-media.herokuapp.com/api/twittername/' +
         this.$store.state.twitterName
+
+      // 'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
+
       // window.location.origin +
       //   '/api/twittername/' +
       //   this.$store.state.twitterName
