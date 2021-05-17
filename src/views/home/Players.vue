@@ -51,7 +51,8 @@ export default {
     document.getElementById('scroll').scrollIntoView()
     this.$store.state.twitterName = null
     axios.get(
-      'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
+      'https://soccer-media.herokuapp.com/api/twittername/' +
+        this.$store.state.twitterName
       // window.location.origin +
       //   '/api/twittername/' +
       //   this.$store.state.twitterName
@@ -73,7 +74,8 @@ export default {
     },
     get() {
       axios.get(
-        'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
+        'https://soccer-media.herokuapp.com/api/twittername/' +
+          this.$store.state.twitterName
         // window.location.origin +
         //   '/api/twittername/' +
         //   this.$store.state.twitterName
