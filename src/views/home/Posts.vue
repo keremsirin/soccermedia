@@ -201,35 +201,13 @@ export default {
     return {
       tweets: [],
       error: '',
-      date: null,
       trLocale: trLocale
     }
   },
-  beforeCreate() {
-    axios.get(
-      'https://soccer-media.herokuapp.com/api/twittername/' +
-        this.$store.state.twitterName
-
-      // 'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
-
-      // window.location.origin +
-      //   '/api/twittername/' +
-      //   this.$store.state.twitterName
-    )
-  },
-  created() {
-    axios.get(
-      'https://soccer-media.herokuapp.com/api/twittername/' +
-        this.$store.state.twitterName
-
-      // 'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
-
-      // window.location.origin +
-      //   '/api/twittername/' +
-      //   this.$store.state.twitterName
-    )
-  },
-  async mounted() {
+  async created() {
+    await axios.post(window.location.origin + '/api/tweets/twittername', {
+      userName: this.$store.state.twitterName
+    })
     try {
       this.tweets = await tweetService.getTweets()
     } catch (err) {

@@ -9,7 +9,7 @@
       <router-link
         @click.native="
           setTwitterName(players.twitterName)
-          get()
+          postTwitterName()
         "
         :to="{ name: 'Posts', params: { playerName: players.playerPathName } }"
         class="Players-inner-wrapper"
@@ -49,7 +49,7 @@ export default {
   },
   created() {
     document.getElementById('scroll').scrollIntoView()
-    this.$store.state.twitterName = null
+    // this.$store.state.twitterName = null
   },
   computed: {
     ...mapState(['teams']),
@@ -65,18 +65,15 @@ export default {
     setTwitterName(name) {
       this.updateTwitterName(name)
     },
-    get() {
-      axios.get(
-        'https://soccer-media.herokuapp.com/api/twittername/' +
-          this.$store.state.twitterName
-
-        // 'http://localhost:8081/api/twittername/' + this.$store.state.twitterName
-
-        // window.location.origin +
-        //   '/api/twittername/' +
-        //   this.$store.state.twitterName
-      )
-      // console.log(this.$route.query.page)
+    async postTwitterName() {
+      await axios.post(window.location.origin + '/api/tweets/twittername', {
+        userName: this.$store.state.twitterName
+      })
+    },
+    postInstagramName() {
+      axios.post(window.location.origin + '/api/posts/instagramname', {
+        userName: this.$store.state.twitterName
+      })
     }
   }
 }
