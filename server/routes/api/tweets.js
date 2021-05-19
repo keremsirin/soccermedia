@@ -1,14 +1,20 @@
 const express = require('express')
 const T = require('../../../src/lib/twitter')
-const twitterName = require('./twitterName')
 
 const router = express.Router()
 
+let username = null
+
+router.post('/twittername', (req, res) => {
+  console.log(req.body.userName)
+  res.send(req.body.userName)
+  username = req.body.userName
+})
+
 router.get('/', (req, res) => {
-  console.log(twitterName.stack[0].params.twittername)
   T.get(
     'statuses/user_timeline',
-    { screen_name: twitterName.stack[0].params.twittername, count: 5 },
+    { screen_name: username, count: 5 },
     function (err, data, response) {
       if (err) {
         return res.status(400).json('Oops! Something went wrong.')
