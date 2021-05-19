@@ -204,7 +204,15 @@ export default {
       trLocale: trLocale
     }
   },
-  async created() {
+  created() {
+    // axios.post(window.location.origin + '/api/tweets/twittername', {
+    //   userName: this.$store.state.twitterName
+    // })
+  },
+  async mounted() {
+    await axios.post(window.location.origin + '/api/tweets/twittername', {
+      userName: this.$store.state.twitterName
+    })
     await axios.post(window.location.origin + '/api/tweets/twittername', {
       userName: this.$store.state.twitterName
     })
