@@ -31,7 +31,7 @@ export default {
 .Posts {
   margin-top: 40px;
   padding-top: 40px;
-  min-height: 95vh;
+  min-height: calc(100vh - 40px);
 
   &-title {
     text-align: center;
