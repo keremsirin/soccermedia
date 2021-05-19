@@ -49,7 +49,7 @@ export default {
   },
   created() {
     document.getElementById('scroll').scrollIntoView()
-    // this.$store.state.twitterName = null
+    this.$store.state.twitterName = null
   },
   computed: {
     ...mapState(['teams']),
