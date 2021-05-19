@@ -8,10 +8,10 @@ app.use(bodyParser.json())
 app.use(cors())
 
 const tweets = require('./routes/api/tweets')
-const twitterName = require('./routes/api/twitterName')
+const posts = require('./routes/api/posts')
 
 app.use('/api/tweets', tweets)
-app.use('/api/twittername/', twitterName)
+app.use('/api/posts', posts)
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(__dirname + '/public/'))
