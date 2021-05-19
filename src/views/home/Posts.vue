@@ -21,7 +21,7 @@ export default {
   data() {
     return {}
   },
-  created() {
+  updated() {
     document.getElementById('scroll').scrollIntoView()
   }
 }
@@ -31,7 +31,7 @@ export default {
 .Posts {
   margin-top: 40px;
   padding-top: 40px;
-  min-height: 96vh;
+  min-height: 95vh;
 
   &-title {
     text-align: center;

@@ -76,9 +76,6 @@ export default {
       trLocale: trLocale
     }
   },
-  created() {
-    document.getElementById('scroll').scrollIntoView()
-  },
   async mounted() {
     await axios.post(window.location.origin + '/api/tweets/twittername', {
       userName: this.$store.state.twitterName
@@ -92,6 +89,8 @@ export default {
       this.error = err.message
       console.log(this.error)
     }
+  },
+  updated() {
     document.getElementById('scroll').scrollIntoView()
   },
   methods: {
