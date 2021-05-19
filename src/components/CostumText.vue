@@ -17,9 +17,15 @@ export default {
       default: 'normal',
       validator: function (value) {
         return (
-          ['xlarge', 'large', 'normal', 'small', 'xsamll', 'xxsmall'].indexOf(
-            value
-          ) !== -1
+          [
+            'xlarge',
+            'large',
+            'normal',
+            'medium',
+            'small',
+            'xsamll',
+            'xxsmall'
+          ].indexOf(value) !== -1
         )
       }
     }
@@ -35,6 +41,9 @@ export default {
   font-size: 16px;
 }
 .normal {
+}
+.medium {
+  font-size: 14px;
 }
 .small {
   font-size: 13px;
