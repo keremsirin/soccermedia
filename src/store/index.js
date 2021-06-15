@@ -24,6 +24,7 @@ export default new Vuex.Store({
             playerPathName: 'kulup-paylasimlari',
             isSocial: true,
             twitterName: 'Hatayspor_FK',
+            instagramName: 'hatayspor',
             profilePhoto:
               'https://fys.tff.org/TFFUploadFolder/KulupLogolari/000122_120x120.png'
           },
@@ -34,16 +35,18 @@ export default new Vuex.Store({
             isSocial: true,
             profilePhoto:
               'https://img.a.transfermarkt.technology/portrait/header/97925-1614803676.jpeg?lm=1',
-            twitterName: 'Munir_Mohand'
+            twitterName: 'Munir_Mohand',
+            instagramName: 'muny1'
           },
           {
             playerId: 2,
             name: 'Akın Alkan',
             playerPathName: 'akin-alkan',
-            isSocial: true,
+            isSocial: false,
             profilePhoto:
               'https://img.a.transfermarkt.technology/portrait/header/252056-1609947483.jpeg?lm=1',
-            twitterName: ''
+            twitterName: '',
+            instagramName: ''
           },
           {
             playerId: 3,
@@ -52,7 +55,8 @@ export default new Vuex.Store({
             isSocial: true,
             profilePhoto:
               'https://img.a.transfermarkt.technology/portrait/header/464378-1614803774.jpeg?lm=1',
-            twitterName: 'Ekilicarslan17'
+            twitterName: 'Ekilicarslan17',
+            instagramName: 'ekremkilicarslan17'
           },
           {
             playerId: 4,
@@ -5769,7 +5773,8 @@ export default new Vuex.Store({
       }
     ],
     teamId: null,
-    twitterName: null
+    twitterName: null,
+    instagramName: null
   },
 
   getters: {},
@@ -5780,6 +5785,9 @@ export default new Vuex.Store({
     },
     setTwitterName(state, name) {
       state.twitterName = name
+    },
+    setInstagramName(state, name) {
+      state.instagramName = name
     }
   },
 
@@ -5789,6 +5797,9 @@ export default new Vuex.Store({
     },
     async updateTwitterName({ commit }, name) {
       await commit('setTwitterName', name)
+    },
+    async updateInstagramName({ commit }, name) {
+      await commit('setInstagramName', name)
     }
 
     // async updateTwitterName({ state, commit }, name) {
