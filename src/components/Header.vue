@@ -6,7 +6,6 @@
         <div class="Header-logo-text">SoccerMedia</div>
         <Ball class="Header-logo-ball" />
       </router-link>
-      <!-- <router-link to="/">About</router-link> -->
     </Container>
   </header>
 </template>
