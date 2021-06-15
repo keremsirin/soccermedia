@@ -63,7 +63,7 @@ import formatDistanceToNowStrict from 'date-fns/formatDistanceToNowStrict'
 import trLocale from 'date-fns/locale/tr'
 
 export default {
-  name: 'Tweets',
+  name: 'Twitter',
   components: {
     CostumText,
     TwitterLike,
